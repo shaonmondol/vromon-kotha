@@ -1,0 +1,1651 @@
+<!DOCTYPE html>
+<html lang="bn" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ভ্রমণ কথা | Vromon Kotha - সেরা বাংলাদেশ ট্যুর প্যাকেজ ও ভ্রমণ সেবা</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#f0fdf4',
+                            100: '#dcfce7',
+                            500: '#15803d',
+                            600: '#166534',
+                            700: '#14532d',
+                            accent: '#f59e0b',
+                            gold: '#fbbf24',
+                            ocean: '#0284c7',
+                            sea: '#0ea5e9'
+                        }
+                    },
+                    fontFamily: {
+                        bengali: ['"Hind Siliguri"', '"Noto Sans Bengali"', 'sans-serif'],
+                        sans: ['"Inter"', '"Hind Siliguri"', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Google Fonts: Hind Siliguri (Bangla) & Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons for rich travel iconography -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <style>
+        body {
+            font-family: 'Hind Siliguri', 'Inter', sans-serif;
+        }
+        .hero-overlay {
+            background: linear-gradient(180deg, rgba(13, 27, 20, 0.78) 0%, rgba(15, 46, 27, 0.85) 100%);
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+        }
+        .badge-pulse {
+            box-shadow: 0 0 0 0 rgba(245, 158, 11, 0.7);
+            animation: pulse-ring 2s infinite;
+        }
+        @keyframes pulse-ring {
+            0% {
+                box-shadow: 0 0 0 0 rgba(245, 158, 11, 0.6);
+            }
+            70% {
+                box-shadow: 0 0 0 10px rgba(245, 158, 11, 0);
+            }
+            100% {
+                box-shadow: 0 0 0 0 rgba(245, 158, 11, 0);
+            }
+        }
+        /* Hide scrollbars for clean tab overflow */
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased selection:bg-brand-500 selection:text-white">
+
+    <!-- Top Announcement Strip -->
+    <div class="bg-emerald-950 text-emerald-200 text-xs py-2 px-4 border-b border-emerald-900/50">
+        <div class="max-w-7xl mx-auto flex flex-wrap justify-between items-center gap-2">
+            <div class="flex items-center space-x-3">
+                <span class="inline-flex items-center gap-1.5 bg-brand-500/30 text-amber-300 px-2 py-0.5 rounded-full font-medium">
+                    <i class="fa-solid fa-sparkles text-[10px]"></i> বিশেষ অফার
+                </span>
+                <span>সাজেক ও কক্সবাজারের প্রিমিয়াম গ্রুপ ট্যুরে থাকছে ১০% ফ্ল্যাট ক্যাশব্যাক!</span>
+            </div>
+            <div class="flex items-center space-x-4">
+                <a href="tel:+8801700000000" class="hover:text-white transition flex items-center gap-1.5">
+                    <i class="fa-solid fa-phone-volume text-amber-400"></i> ২৪/৭ হেল্পলাইন: +৮৮০১৭১২-৩৪৫৬৭৮
+                </a>
+                <span class="text-emerald-700">|</span>
+                <span class="inline-flex items-center gap-1 text-emerald-300 font-semibold">
+                    <i class="fa-solid fa-certificate text-amber-400"></i> সরকারি লাইসেন্স নং: TRV-BD-9821
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Navigation Bar -->
+    <header class="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-slate-200/80 shadow-xs transition-all">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <!-- Brand Logo -->
+                <a href="#hero" class="flex items-center gap-3 group">
+                    <div class="w-12 h-12 rounded-2xl bg-gradient-to-tr from-brand-600 via-emerald-500 to-amber-400 flex items-center justify-center text-white shadow-md shadow-brand-600/30 group-hover:scale-105 transition-transform">
+                        <i class="fa-solid fa-compass text-2xl animate-spin-slow"></i>
+                    </div>
+                    <div>
+                        <div class="flex items-center gap-1">
+                            <span class="text-2xl font-black text-emerald-900 tracking-tight">ভ্রমণ কথা</span>
+                            <span class="text-xs bg-amber-100 text-amber-800 font-bold px-1.5 py-0.5 rounded">BD</span>
+                        </div>
+                        <p class="text-[11px] font-semibold text-slate-500 tracking-wider">Vromon Kotha &bull; Explore Bangladesh</p>
+                    </div>
+                </a>
+
+                <!-- Desktop Navigation Links -->
+                <nav class="hidden lg:flex items-center space-x-7 text-sm font-semibold text-slate-700">
+                    <a href="#hero" class="hover:text-brand-600 transition">হোম</a>
+                    <a href="#packages" class="hover:text-brand-600 transition">জনপ্রিয় ট্যুর</a>
+                    <a href="#destinations" class="hover:text-brand-600 transition">গন্তব্যসমূহ</a>
+                    <a href="#why-us" class="hover:text-brand-600 transition">আমাদের সেবা</a>
+                    <a href="#reviews" class="hover:text-brand-600 transition">পর্যটক রিভিউ</a>
+                    <a href="#tips" class="hover:text-brand-600 transition">ভ্রমণ টিপস</a>
+                    <a href="#contact" class="hover:text-brand-600 transition">যোগাযোগ</a>
+                </nav>
+
+                <!-- Actions: Call & Book Now -->
+                <div class="hidden sm:flex items-center space-x-3">
+                    <a href="https://wa.me/8801712345678" target="_blank" class="p-2.5 rounded-xl border border-emerald-200 text-brand-600 hover:bg-emerald-50 transition" title="হোয়াটসঅ্যাপে কথা বলুন">
+                        <i class="fa-brands fa-whatsapp text-lg"></i>
+                    </a>
+                    <button onclick="openBookingModal('সাজেক ভ্যালি মেঘের দেশ')" class="px-5 py-2.5 rounded-xl bg-gradient-to-r from-brand-600 to-emerald-500 text-white font-bold text-sm shadow-md shadow-brand-600/25 hover:shadow-lg hover:brightness-105 transition active:scale-95 flex items-center gap-2">
+                        <i class="fa-solid fa-ticket"></i>
+                        <span>ট্যুর বুক করুন</span>
+                    </button>
+                </div>
+
+                <!-- Mobile Menu Hamburger -->
+                <button id="mobileMenuBtn" class="lg:hidden p-2 rounded-xl text-slate-700 hover:bg-slate-100 focus:outline-none" aria-label="মেনু খুলুন">
+                    <i id="menuIcon" class="fa-solid fa-bars text-xl"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Navigation Menu -->
+        <div id="mobileMenu" class="hidden lg:hidden border-t border-slate-200 bg-white px-4 pt-3 pb-6 space-y-2">
+            <a href="#hero" class="mobile-link block px-3 py-2 rounded-lg text-slate-700 font-semibold hover:bg-emerald-50 hover:text-brand-600">হোম</a>
+            <a href="#packages" class="mobile-link block px-3 py-2 rounded-lg text-slate-700 font-semibold hover:bg-emerald-50 hover:text-brand-600">জনপ্রিয় ট্যুর</a>
+            <a href="#destinations" class="mobile-link block px-3 py-2 rounded-lg text-slate-700 font-semibold hover:bg-emerald-50 hover:text-brand-600">গন্তব্যসমূহ</a>
+            <a href="#why-us" class="mobile-link block px-3 py-2 rounded-lg text-slate-700 font-semibold hover:bg-emerald-50 hover:text-brand-600">আমাদের সেবা</a>
+            <a href="#reviews" class="mobile-link block px-3 py-2 rounded-lg text-slate-700 font-semibold hover:bg-emerald-50 hover:text-brand-600">পর্যটক রিভিউ</a>
+            <a href="#tips" class="mobile-link block px-3 py-2 rounded-lg text-slate-700 font-semibold hover:bg-emerald-50 hover:text-brand-600">ভ্রমণ নির্দেশিকা</a>
+            <a href="#contact" class="mobile-link block px-3 py-2 rounded-lg text-slate-700 font-semibold hover:bg-emerald-50 hover:text-brand-600">যোগাযোগ</a>
+            <div class="pt-3 border-t border-slate-100 flex flex-col gap-2">
+                <button onclick="openBookingModal('কাস্টম প্যাকেজ')" class="w-full py-3 rounded-xl bg-brand-600 text-white font-bold text-center">
+                    দ্রুত বুকিং করুন
+                </button>
+                <a href="tel:+8801712345678" class="text-center py-2 text-sm font-semibold text-emerald-700">
+                    <i class="fa-solid fa-phone mr-1"></i> কল করুন: ০১৭১২-৩৪৫৬৭৮
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="relative min-h-[640px] lg:min-h-[720px] flex items-center justify-center py-20 px-4 bg-cover bg-center text-white overflow-hidden" 
+                 style="background-image: url('https://images.unsplash.com/photo-1596895111956-bf1cf0599ce5?q=80&w=2000&auto=format&fit=crop');">
+            <!-- Overlay with deep emerald tint -->
+            <div class="absolute inset-0 hero-overlay"></div>
+
+            <div class="relative max-w-6xl mx-auto w-full z-10 text-center">
+                <!-- Badge -->
+                <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-emerald-200 text-xs sm:text-sm font-medium mb-6">
+                    <span class="w-2.5 h-2.5 rounded-full bg-amber-400 animate-ping"></span>
+                    <span>বাংলাদেশের প্রতিটি প্রান্তে নিরাপদ ও প্রিমিয়াম ভ্রমণ অভিজ্ঞতা</span>
+                </div>
+
+                <!-- Main Slogan -->
+                <h1 class="text-3xl sm:text-5xl md:text-6xl font-black tracking-tight leading-tight mb-6">
+                    সবুজে শ্যামলে ঘেরা রূপসী বাংলাদেশ<br>
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-amber-300 via-amber-200 to-emerald-300">
+                        নিরাপদে ও নিশ্চিন্তে এক্সপ্লোর করুন
+                    </span>
+                </h1>
+
+                <p class="max-w-2xl mx-auto text-slate-200 text-base sm:text-lg mb-10 font-normal leading-relaxed">
+                    সাজেক ভ্যালির মেঘ ছুঁয়ে যাওয়া থেকে শুরু করে কক্সবাজারের দীর্ঘতম সমুদ্র সৈকত কিংবা সুন্দরবনের গহীনে রয়েল বেঙ্গল টাইগারের দেশ — আপনার স্বপ্নযাত্রা শুরু হোক ভ্রমণ কথার সাথে।
+                </p>
+
+                <!-- Interactive Quick Search / Filter Bar -->
+                <div class="glass-card text-slate-800 rounded-3xl p-4 sm:p-6 shadow-2xl border border-white/40 max-w-5xl mx-auto text-left">
+                    <form id="heroFilterForm" onsubmit="handleHeroSearch(event)" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4 items-end">
+                        
+                        <!-- গন্তব্য Destination -->
+                        <div>
+                            <label class="block text-xs font-bold uppercase tracking-wider text-slate-600 mb-1.5">
+                                <i class="fa-solid fa-location-dot text-brand-600 mr-1"></i> গন্তব্য (Destination)
+                            </label>
+                            <select id="searchDestination" class="w-full bg-slate-50 border border-slate-200 rounded-xl px-3.5 py-2.5 text-sm font-medium focus:ring-2 focus:ring-brand-500 focus:outline-none">
+                                <option value="all">সকল আকর্ষণীয় গন্তব্য</option>
+                                <option value="sajek">সাজেক ভ্যালি (রাঙামাটি)</option>
+                                <option value="cox">কক্সবাজার সমুদ্র সৈকত</option>
+                                <option value="sreemangal">শ্রীমঙ্গল চা বাগান ও বন</option>
+                                <option value="sundarbans">সুন্দরবন ম্যানগ্রোভ ফরেস্ট</option>
+                                <option value="bandarban">বান্দরবান নীলগিরি ও ঝরনা</option>
+                                <option value="saintmartin">সেন্টমার্টিন দ্বীপ</option>
+                                <option value="sylhet">সিলেট জাফলং ও বিছনাকান্দি</option>
+                            </select>
+                        </div>
+
+                        <!-- যাত্রা শুরুর তারিখ -->
+                        <div>
+                            <label class="block text-xs font-bold uppercase tracking-wider text-slate-600 mb-1.5">
+                                <i class="fa-regular fa-calendar-days text-brand-600 mr-1"></i> যাত্রার তারিখ
+                            </label>
+                            <input type="date" id="searchDate" class="w-full bg-slate-50 border border-slate-200 rounded-xl px-3.5 py-2.5 text-sm font-medium focus:ring-2 focus:ring-brand-500 focus:outline-none">
+                        </div>
+
+                        <!-- ট্যুর টাইপ / সময়কাল -->
+                        <div>
+                            <label class="block text-xs font-bold uppercase tracking-wider text-slate-600 mb-1.5">
+                                <i class="fa-solid fa-clock text-brand-600 mr-1"></i> সময়কাল / ধরন
+                            </label>
+                            <select id="searchDuration" class="w-full bg-slate-50 border border-slate-200 rounded-xl px-3.5 py-2.5 text-sm font-medium focus:ring-2 focus:ring-brand-500 focus:outline-none">
+                                <option value="all">যে কোনো সময়কাল</option>
+                                <option value="short">উইকেন্ড ট্যুর (১-২ দিন)</option>
+                                <option value="medium">স্ট্যান্ডার্ড (৩-৪ দিন)</option>
+                                <option value="long">লং ভ্যাকেশন (৫+ দিন)</option>
+                                <option value="family">ফ্যামিলি স্পেশাল</option>
+                            </select>
+                        </div>
+
+                        <!-- বাজেট রেঞ্জ -->
+                        <div>
+                            <label class="block text-xs font-bold uppercase tracking-wider text-slate-600 mb-1.5">
+                                <i class="fa-solid fa-bangladeshi-taka-sign text-brand-600 mr-1"></i> বাজেট রেঞ্জ (জনপ্রতি)
+                            </label>
+                            <select id="searchBudget" class="w-full bg-slate-50 border border-slate-200 rounded-xl px-3.5 py-2.5 text-sm font-medium focus:ring-2 focus:ring-brand-500 focus:outline-none">
+                                <option value="all">যেকোনো বাজেট</option>
+                                <option value="low">৳ ৫,০০০ এর নিচে</option>
+                                <option value="mid">৳ ৫,০০০ - ৳ ১০,০০০</option>
+                                <option value="high">৳ ১০,০০০ - ৳ ২০,০০০+</option>
+                            </select>
+                        </div>
+
+                        <!-- সার্চ বাটন -->
+                        <div>
+                            <button type="submit" class="w-full py-3 rounded-xl bg-brand-600 hover:bg-brand-700 text-white font-bold text-sm shadow-lg shadow-brand-600/30 flex items-center justify-center gap-2 transition active:scale-95">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                                <span>প্যাকেজ খুঁজুন</span>
+                            </button>
+                        </div>
+                    </form>
+
+                    <!-- Quick Tags -->
+                    <div class="mt-3 pt-3 border-t border-slate-100 flex flex-wrap items-center gap-2 text-xs text-slate-600">
+                        <span class="font-bold text-slate-500">জনপ্রিয় সার্চ:</span>
+                        <button onclick="quickFilter('sajek')" class="px-2.5 py-1 rounded-full bg-emerald-100 text-brand-700 hover:bg-emerald-200 transition">#সাজেক মেঘের দেশ</button>
+                        <button onclick="quickFilter('cox')" class="px-2.5 py-1 rounded-full bg-blue-100 text-blue-700 hover:bg-blue-200 transition">#কক্সবাজার লাক্সারি</button>
+                        <button onclick="quickFilter('sundarbans')" class="px-2.5 py-1 rounded-full bg-amber-100 text-amber-800 hover:bg-amber-200 transition">#সুন্দরবন ক্রুজ</button>
+                        <button onclick="quickFilter('saintmartin')" class="px-2.5 py-1 rounded-full bg-cyan-100 text-cyan-800 hover:bg-cyan-200 transition">#সেন্টমার্টিন কোরাল দ্বীপ</button>
+                    </div>
+                </div>
+
+                <!-- Stats Counters in Hero -->
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto mt-12 text-center">
+                    <div class="bg-black/30 backdrop-blur-xs p-3 rounded-2xl border border-white/10">
+                        <p class="text-2xl sm:text-3xl font-extrabold text-amber-300">১২,০০০+</p>
+                        <p class="text-xs text-emerald-200">সন্তুষ্ট পর্যটক</p>
+                    </div>
+                    <div class="bg-black/30 backdrop-blur-xs p-3 rounded-2xl border border-white/10">
+                        <p class="text-2xl sm:text-3xl font-extrabold text-amber-300">৬৫+</p>
+                        <p class="text-xs text-emerald-200">সার্টিফাইড ট্যুর প্ল্যান</p>
+                    </div>
+                    <div class="bg-black/30 backdrop-blur-xs p-3 rounded-2xl border border-white/10">
+                        <p class="text-2xl sm:text-3xl font-extrabold text-amber-300">১০০%</p>
+                        <p class="text-xs text-emerald-200">নিরাপদ ও ফ্যামিলি ফ্রেন্ডলি</p>
+                    </div>
+                    <div class="bg-black/30 backdrop-blur-xs p-3 rounded-2xl border border-white/10">
+                        <p class="text-2xl sm:text-3xl font-extrabold text-amber-300">৪.৯ ★</p>
+                        <p class="text-xs text-emerald-200">গুগল ও ফেসবুক রিভিউ</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="packages" class="py-20 bg-slate-100/80">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <!-- Section Header -->
+                <div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-4">
+                    <div>
+                        <div class="inline-flex items-center gap-1.5 text-brand-600 font-bold text-xs uppercase tracking-widest bg-emerald-100 px-3 py-1 rounded-full mb-2">
+                            <i class="fa-solid fa-fire text-amber-500"></i> টপ ট্রাভেল ডিল
+                        </div>
+                        <h2 class="text-3xl sm:text-4xl font-black text-slate-900 tracking-tight">
+                            জনপ্রিয় ট্যুর প্যাকেজসমূহ (Popular Tour Packages)
+                        </h2>
+                        <p class="text-slate-600 text-sm sm:text-base mt-2">
+                            প্রিমিয়াম রিসোর্ট, হাইজিন ফুড এবং অভিজ্ঞ গাইড সহ আমাদের সর্বাধিক বুকড প্যাকেজ।
+                        </p>
+                    </div>
+
+                    <!-- Category Pills -->
+                    <div class="flex items-center space-x-2 overflow-x-auto no-scrollbar pb-2">
+                        <button onclick="filterPackages('all')" class="pkg-filter-btn active px-4 py-2 rounded-xl text-xs sm:text-sm font-bold bg-brand-600 text-white shadow-sm" data-category="all">সবগুলো</button>
+                        <button onclick="filterPackages('hill')" class="pkg-filter-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-bold bg-white text-slate-700 hover:bg-emerald-50 border border-slate-200" data-category="hill">পাহাড় ও ভ্যালি</button>
+                        <button onclick="filterPackages('sea')" class="pkg-filter-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-bold bg-white text-slate-700 hover:bg-emerald-50 border border-slate-200" data-category="sea">সমুদ্র সৈকত</button>
+                        <button onclick="filterPackages('nature')" class="pkg-filter-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-bold bg-white text-slate-700 hover:bg-emerald-50 border border-slate-200" data-category="nature">প্রকৃতি ও বন</button>
+                    </div>
+                </div>
+
+                <!-- Tour Packages Grid -->
+                <div id="packagesContainer" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    
+                    <!-- Package 1: Sajek Valley -->
+                    <div class="pkg-card bg-white rounded-3xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col group" data-category="hill" data-dest="sajek" data-price="6500">
+                        <div class="relative h-60 overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1629813366051-b58137b2792c?q=80&w=800&auto=format&fit=crop" 
+                                 alt="সাজেক ভ্যালি" 
+                                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                                 onerror="this.src='https://placehold.co/800x600/15803d/ffffff?text=Sajek+Valley'">
+                            <span class="absolute top-4 left-4 bg-amber-500 text-slate-900 font-extrabold text-xs px-3 py-1 rounded-full shadow-md badge-pulse">
+                                <i class="fa-solid fa-crown mr-1"></i> টপ সেলিং
+                            </span>
+                            <span class="absolute top-4 right-4 bg-black/60 backdrop-blur-md text-white font-medium text-xs px-2.5 py-1 rounded-xl">
+                                ৩ দিন ২ রাত
+                            </span>
+                            <div class="absolute bottom-3 left-4 right-4 flex items-center justify-between text-white text-xs">
+                                <span class="bg-emerald-950/80 backdrop-blur-md px-2.5 py-1 rounded-lg">
+                                    <i class="fa-solid fa-location-dot text-amber-400 mr-1"></i> রাঙামাটি, বাঘাইছড়ি
+                                </span>
+                                <span class="bg-black/70 backdrop-blur-md px-2.5 py-1 rounded-lg">
+                                    <i class="fa-solid fa-star text-amber-400 mr-1"></i> ৪.৯ (৩৪০ রিভিউ)
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="p-6 flex-1 flex flex-col justify-between">
+                            <div>
+                                <h3 class="text-xl font-black text-slate-900 group-hover:text-brand-600 transition-colors">
+                                    সাজেক ভ্যালি মেঘের দেশ প্রিমিয়াম ট্যুর
+                                </h3>
+                                <p class="text-slate-500 text-xs sm:text-sm mt-2 leading-relaxed">
+                                    হেলিপ্যাডে সূর্যাস্ত, কংলাক পাহাড় ট্র্যাকিং, রুইলুই পাড়া ঘুরে দেখা এবং মেঘের চাদরে মোড়ানো কাঠের প্রিমিয়াম কটেজ।
+                                </p>
+
+                                <!-- Inclusions List -->
+                                <div class="mt-4 pt-4 border-t border-slate-100">
+                                    <p class="text-xs font-bold text-slate-700 uppercase mb-2">প্যাকেজে অন্তর্ভুক্ত (Inclusions):</p>
+                                    <div class="grid grid-cols-2 gap-2 text-xs text-slate-600">
+                                        <div class="flex items-center gap-1.5"><i class="fa-solid fa-hotel text-emerald-600"></i> প্রিমিয়াম কটেজ</div>
+                                        <div class="flex items-center gap-1.5"><i class="fa-solid fa-truck-pickup text-emerald-600"></i> রিজার্ভ চাঁদের গাড়ি</div>
+                                        <div class="flex items-center gap-1.5"><i class="fa-solid fa-utensils text-emerald-600"></i> সব বেলার খাবার</div>
+                                        <div class="flex items-center gap-1.5"><i class="fa-solid fa-user-shield text-emerald-600"></i> সার্বক্ষণিক গাইড</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between">
+                                <div>
+                                    <span class="text-xs text-slate-400 block line-through">৳ ৭,৫০০</span>
+                                    <div class="flex items-baseline gap-1">
+                                        <span class="text-2xl font-black text-brand-600">৳ ৬,৫০০</span>
+                                        <span class="text-xs text-slate-500">/জনপ্রতি</span>
+                                    </div>
+                                </div>
+                                <div class="flex gap-2">
+                                    <button onclick="openDetailsModal('sajek')" class="px-3 py-2 rounded-xl border border-slate-300 text-slate-700 text-xs font-bold hover:bg-slate-50 transition" title="বিস্তারিত">
+                                        বিস্তারিত
+                                    </button>
+                                    <button onclick="openBookingModal('সাজেক ভ্যালি মেঘের দেশ প্রিমিয়াম', 6500)" class="px-4 py-2 rounded-xl bg-brand-600 hover:bg-brand-700 text-white text-xs font-bold shadow-md shadow-brand-600/20 transition active:scale-95">
+                                        বুক করুন
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Package 2: Cox's Bazar -->
+                    <div class="pkg-card bg-white rounded-3xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col group" data-category="sea" data-dest="cox" data-price="৭২০০">
+                        <div class="relative h-60 overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1589556264800-08ae9e129a8c?q=80&w=800&auto=format&fit=crop" 
+                                 alt="কক্সবাজার সমুদ্র সৈকত" 
+                                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                                 onerror="this.src='https://placehold.co/800x600/0284c7/ffffff?text=Coxs+Bazar'">
+                            <span class="absolute top-4 left-4 bg-sky-500 text-white font-extrabold text-xs px-3 py-1 rounded-full shadow-md">
+                                <i class="fa-solid fa-umbrella-beach mr-1"></i> ফ্যামিলি ফেভারিট
+                            </span>
+                            <span class="absolute top-4 right-4 bg-black/60 backdrop-blur-md text-white font-medium text-xs px-2.5 py-1 rounded-xl">
+                                ৪ দিন ৩ রাত
+                            </span>
+                            <div class="absolute bottom-3 left-4 right-4 flex items-center justify-between text-white text-xs">
+                                <span class="bg-emerald-950/80 backdrop-blur-md px-2.5 py-1 rounded-lg">
+                                    <i class="fa-solid fa-location-dot text-amber-400 mr-1"></i> কক্সবাজার মেরিন ড্রাইভ
+                                </span>
+                                <span class="bg-black/70 backdrop-blur-md px-2.5 py-1 rounded-lg">
+                                    <i class="fa-solid fa-star text-amber-400 mr-1"></i> ৪.৮ (৫১০ রিভিউ)
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="p-6 flex-1 flex flex-col justify-between">
+                            <div>
+                                <h3 class="text-xl font-black text-slate-900 group-hover:text-brand-600 transition-colors">
+                                    কক্সবাজার রিল্যাক্স ও মেরিন ড্রাইভ ট্যুর
+                                </h3>
+                                <p class="text-slate-500 text-xs sm:text-sm mt-2 leading-relaxed">
+                                    বিশ্বের দীর্ঘতম সমুদ্র সৈকতে আরামদায়ক ছুটি, ইনানী বিচ ও হিমছড়ি ঝরনা পরিদর্শন এবং মেরিন ড্রাইভের চমৎকার লং ড্রাইভ।
+                                </p>
+
+                                <div class="mt-4 pt-4 border-t border-slate-100">
+                                    <p class="text-xs font-bold text-slate-700 uppercase mb-2">প্যাকেজে অন্তর্ভুক্ত (Inclusions):</p>
+                                    <div class="grid grid-cols-2 gap-2 text-xs text-slate-600">
+                                        <div class="flex items-center gap-1.5"><i class="fa-solid fa-hotel text-emerald-600"></i> ৩-স্টার বিচ ভিউ হোটেল</div>
+                                        <div class="flex items-center gap-1.5"><i class="fa-solid fa-bus text-emerald-600"></i> এসি বাস যাতায়াত</div>
+                                        <div class="flex items-center gap-1.5"><i class="fa-solid fa-fish text-emerald-600"></i> রূপচাঁদা ও সী-ফুড ডিনার</div>
+                                        <div class="flex items-center gap-1.5"><i class="fa-solid fa-camera text-emerald-600"></i> বিচ ফটোগ্রাফি সেশন</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between">
+                                <div>
+                                    <span class="text-xs text-slate-400 block line-through">৳ ৮,৫০০</span>
+                                    <div class="flex items-baseline gap-1">
+                                        <span class="text-2xl font-black text-brand-600">৳ ৭,২০০</span>
+                                        <span class="text-xs text-slate-500">/জনপ্রতি</span>
+                                    </div>
+                                </div>
+                                <div class="flex gap-2">
+                                    <button onclick="openDetailsModal('cox')" class="px-3 py-2 rounded-xl border border-slate-300 text-slate-700 text-xs font-bold hover:bg-slate-50 transition">
+                                        বিস্তারিত
+                                    </button>
+                                    <button onclick="openBookingModal('কক্সবাজার রিল্যাক্স ও মেরিন ড্রাইভ', 7200)" class="px-4 py-2 rounded-xl bg-brand-600 hover:bg-brand-700 text-white text-xs font-bold shadow-md shadow-brand-600/20 transition active:scale-95">
+                                        বুক করুন
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Package 3: Sreemangal -->
+                    <div class="pkg-card bg-white rounded-3xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col group" data-category="nature" data-dest="sreemangal" data-price="4800">
+                        <div class="relative h-60 overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1544735716-392fe2489ffa?q=80&w=800&auto=format&fit=crop" 
+                                 alt="শ্রীমঙ্গল চা বাগান" 
+                                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                                 onerror="this.src='https://placehold.co/800x600/166534/ffffff?text=Sreemangal+Tea+Garden'">
+                            <span class="absolute top-4 left-4 bg-emerald-600 text-white font-extrabold text-xs px-3 py-1 rounded-full shadow-md">
+                                <i class="fa-solid fa-leaf mr-1"></i> ইকো ট্যুর
+                            </span>
+                            <span class="absolute top-4 right-4 bg-black/60 backdrop-blur-md text-white font-medium text-xs px-2.5 py-1 rounded-xl">
+                                ২ দিন ১ রাত
+                            </span>
+                            <div class="absolute bottom-3 left-4 right-4 flex items-center justify-between text-white text-xs">
+                                <span class="bg-emerald-950/80 backdrop-blur-md px-2.5 py-1 rounded-lg">
+                                    <i class="fa-solid fa-location-dot text-amber-400 mr-1"></i> মৌলভীবাজার, সিলেট
+                                </span>
+                                <span class="bg-black/70 backdrop-blur-md px-2.5 py-1 rounded-lg">
+                                    <i class="fa-solid fa-star text-amber-400 mr-1"></i> ৪.৯ (২৮০ রিভিউ)
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="p-6 flex-1 flex flex-col justify-between">
+                            <div>
+                                <h3 class="text-xl font-black text-slate-900 group-hover:text-brand-600 transition-colors">
+                                    শ্রীমঙ্গল চা বাগান ও লাউয়াছড়া জঙ্গল ট্রেইল
+                                </h3>
+                                <p class="text-slate-500 text-xs sm:text-sm mt-2 leading-relaxed">
+                                    সবুজ চা পাতার মহাসমুদ্র, লাউয়াছড়া জাতীয় উদ্যানে উল্লুকের ডাক, মাধবপুর লেক ও নীলকণ্ঠের বিখ্যাত ৭ রঙের চা এর অভিজ্ঞতা।
+                                </p>
+
+                                <div class="mt-4 pt-4 border-t border-slate-100">
+                                    <p class="text-xs font-bold text-slate-700 uppercase mb-2">প্যাকেজে অন্তর্ভুক্ত (Inclusions):</p>
+                                    <div class="grid grid-cols-2 gap-2 text-xs text-slate-600">
+                                        <div class="flex items-center gap-1.5"><i class="fa-solid fa-house-chimney text-emerald-600"></i> ইকো রিসোর্ট নাইট স্টে</div>
+                                        <div class="flex items-center gap-1.5"><i class="fa-solid fa-car text-emerald-600"></i> সাইটসিয়িং গাড়ি</div>
+                                        <div class="flex items-center gap-1.5"><i class="fa-solid fa-mug-hot text-emerald-600"></i> ৭ লেয়ারের স্পেশাল চা</div>
+                                        <div class="flex items-center gap-1.5"><i class="fa-solid fa-ticket text-emerald-600"></i> পার্ক এন্ট্রি ফি</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between">
+                                <div>
+                                    <span class="text-xs text-slate-400 block line-through">৳ ৫,৮০০</span>
+                                    <div class="flex items-baseline gap-1">
+                                        <span class="text-2xl font-black text-brand-600">৳ ৪,৮০০</span>
+                                        <span class="text-xs text-slate-500">/জনপ্রতি</span>
+                                    </div>
+                                </div>
+                                <div class="flex gap-2">
+                                    <button onclick="openDetailsModal('sreemangal')" class="px-3 py-2 rounded-xl border border-slate-300 text-slate-700 text-xs font-bold hover:bg-slate-50 transition">
+                                        বিস্তারিত
+                                    </button>
+                                    <button onclick="openBookingModal('শ্রীমঙ্গল চা বাগান ও লাউয়াছড়া', 4800)" class="px-4 py-2 rounded-xl bg-brand-600 hover:bg-brand-700 text-white text-xs font-bold shadow-md shadow-brand-600/20 transition active:scale-95">
+                                        বুক করুন
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Package 4: Sundarbans Cruise -->
+                    <div class="pkg-card bg-white rounded-3xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col group" data-category="nature" data-dest="sundarbans" data-price="13500">
+                        <div class="relative h-60 overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?q=80&w=800&auto=format&fit=crop" 
+                                 alt="সুন্দরবন ম্যানগ্রোভ বন" 
+                                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                                 onerror="this.src='https://placehold.co/800x600/0f766e/ffffff?text=Sundarbans+Cruise'">
+                            <span class="absolute top-4 left-4 bg-amber-600 text-white font-extrabold text-xs px-3 py-1 rounded-full shadow-md">
+                                <i class="fa-solid fa-ship mr-1"></i> লাক্সারি ভেসেল
+                            </span>
+                            <span class="absolute top-4 right-4 bg-black/60 backdrop-blur-md text-white font-medium text-xs px-2.5 py-1 rounded-xl">
+                                ৩ দিন ৩ রাত
+                            </span>
+                            <div class="absolute bottom-3 left-4 right-4 flex items-center justify-between text-white text-xs">
+                                <span class="bg-emerald-950/80 backdrop-blur-md px-2.5 py-1 rounded-lg">
+                                    <i class="fa-solid fa-location-dot text-amber-400 mr-1"></i> মোংলা, খুলনা
+                                </span>
+                                <span class="bg-black/70 backdrop-blur-md px-2.5 py-1 rounded-lg">
+                                    <i class="fa-solid fa-star text-amber-400 mr-1"></i> ৫.০ (১৯৫ রিভিউ)
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="p-6 flex-1 flex flex-col justify-between">
+                            <div>
+                                <h3 class="text-xl font-black text-slate-900 group-hover:text-brand-600 transition-colors">
+                                    সুন্দরবন ওয়াইল্ডলাইফ লাক্সারি ক্রুজ
+                                </h3>
+                                <p class="text-slate-500 text-xs sm:text-sm mt-2 leading-relaxed">
+                                    বিশ্বের বৃহত্তম ম্যানগ্রোভ অরণ্যে ৩ দিনের নদীভ্রমণ, কটকা ওয়াচ টাওয়ার, জামতলা বিচ এবং সশস্ত্র বনরক্ষী সহ বন্যপ্রাণী পর্যবেক্ষণ।
+                                </p>
+
+                                <div class="mt-4 pt-4 border-t border-slate-100">
+                                    <p class="text-xs font-bold text-slate-700 uppercase mb-2">প্যাকেজে অন্তর্ভুক্ত (Inclusions):</p>
+                                    <div class="grid grid-cols-2 gap-2 text-xs text-slate-600">
+                                        <div class="flex items-center gap-1.5"><i class="fa-solid fa-ship text-emerald-600"></i> এসি কেবিন ক্রুজার</div>
+                                        <div class="flex items-center gap-1.5"><i class="fa-solid fa-shield text-emerald-600"></i> সশস্ত্র ফরেস্ট গার্ড</div>
+                                        <div class="flex items-center gap-1.5"><i class="fa-solid fa-bowl-rice text-emerald-600"></i> বুফে বারবিকিউ ও খাবার</div>
+                                        <div class="flex items-center gap-1.5"><i class="fa-solid fa-id-card text-emerald-600"></i> বন বিভাগ পারমিট</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between">
+                                <div>
+                                    <span class="text-xs text-slate-400 block line-through">৳ ১৫,০০০</span>
+                                    <div class="flex items-baseline gap-1">
+                                        <span class="text-2xl font-black text-brand-600">৳ ১৩,৫০০</span>
+                                        <span class="text-xs text-slate-500">/জনপ্রতি</span>
+                                    </div>
+                                </div>
+                                <div class="flex gap-2">
+                                    <button onclick="openDetailsModal('sundarbans')" class="px-3 py-2 rounded-xl border border-slate-300 text-slate-700 text-xs font-bold hover:bg-slate-50 transition">
+                                        বিস্তারিত
+                                    </button>
+                                    <button onclick="openBookingModal('সুন্দরবন ওয়াইল্ডলাইফ লাক্সারি ক্রুজ', 13500)" class="px-4 py-2 rounded-xl bg-brand-600 hover:bg-brand-700 text-white text-xs font-bold shadow-md shadow-brand-600/20 transition active:scale-95">
+                                        বুক করুন
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Package 5: Bandarban -->
+                    <div class="pkg-card bg-white rounded-3xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col group" data-category="hill" data-dest="bandarban" data-price="8500">
+                        <div class="relative h-60 overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1582650625119-3a31f8418b7d?q=80&w=800&auto=format&fit=crop" 
+                                 alt="বান্দরবান নীলগিরি" 
+                                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                                 onerror="this.src='https://placehold.co/800x600/166534/ffffff?text=Bandarban+Nilgiri'">
+                            <span class="absolute top-4 left-4 bg-purple-600 text-white font-extrabold text-xs px-3 py-1 rounded-full shadow-md">
+                                <i class="fa-solid fa-person-hiking mr-1"></i> অ্যাডভেঞ্চার
+                            </span>
+                            <span class="absolute top-4 right-4 bg-black/60 backdrop-blur-md text-white font-medium text-xs px-2.5 py-1 rounded-xl">
+                                ৩ দিন ২ রাত
+                            </span>
+                            <div class="absolute bottom-3 left-4 right-4 flex items-center justify-between text-white text-xs">
+                                <span class="bg-emerald-950/80 backdrop-blur-md px-2.5 py-1 rounded-lg">
+                                    <i class="fa-solid fa-location-dot text-amber-400 mr-1"></i> নীলগিরি, থানচি
+                                </span>
+                                <span class="bg-black/70 backdrop-blur-md px-2.5 py-1 rounded-lg">
+                                    <i class="fa-solid fa-star text-amber-400 mr-1"></i> ৪.৮ (২২০ রিভিউ)
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="p-6 flex-1 flex flex-col justify-between">
+                            <div>
+                                <h3 class="text-xl font-black text-slate-900 group-hover:text-brand-600 transition-colors">
+                                    বান্দরবান নীলগিরি ও নাফাখুম ট্র্যাকিং
+                                </h3>
+                                <p class="text-slate-500 text-xs sm:text-sm mt-2 leading-relaxed">
+                                    মেঘের দেশে নীলগিরি রিসোর্ট, শৈলপ্রপাত, স্বর্ণ মন্দির এবং রিমাক্রি নদী পেরিয়ে বাংলার নায়াগ্রা খ্যাত নাফাখুমের রোমাঞ্চকর ট্রেইল।
+                                </p>
+
+                                <div class="mt-4 pt-4 border-t border-slate-100">
+                                    <p class="text-xs font-bold text-slate-700 uppercase mb-2">প্যাকেজে অন্তর্ভুক্ত (Inclusions):</p>
+                                    <div class="grid grid-cols-2 gap-2 text-xs text-slate-600">
+                                        <div class="flex items-center gap-1.5"><i class="fa-solid fa-mountain-sun text-emerald-600"></i> হিলভিউ রিসোর্ট</div>
+                                        <div class="flex items-center gap-1.5"><i class="fa-solid fa-sailboat text-emerald-600"></i> ইঞ্জিন বোট ও চান্দের গাড়ি</div>
+                                        <div class="flex items-center gap-1.5"><i class="fa-solid fa-utensils text-emerald-600"></i> আদিবাসী ঐতিহ্যবাহী খাবার</div>
+                                        <div class="flex items-center gap-1.5"><i class="fa-solid fa-person-walking-arrow-right text-emerald-600"></i> ট্র্যাকিং গাইড</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between">
+                                <div>
+                                    <span class="text-xs text-slate-400 block line-through">৳ ৯,৮০০</span>
+                                    <div class="flex items-baseline gap-1">
+                                        <span class="text-2xl font-black text-brand-600">৳ ৮,৫০০</span>
+                                        <span class="text-xs text-slate-500">/জনপ্রতি</span>
+                                    </div>
+                                </div>
+                                <div class="flex gap-2">
+                                    <button onclick="openDetailsModal('bandarban')" class="px-3 py-2 rounded-xl border border-slate-300 text-slate-700 text-xs font-bold hover:bg-slate-50 transition">
+                                        বিস্তারিত
+                                    </button>
+                                    <button onclick="openBookingModal('বান্দরবান নীলগিরি ও নাফাখুম', 8500)" class="px-4 py-2 rounded-xl bg-brand-600 hover:bg-brand-700 text-white text-xs font-bold shadow-md shadow-brand-600/20 transition active:scale-95">
+                                        বুক করুন
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Package 6: Saint Martin Island -->
+                    <div class="pkg-card bg-white rounded-3xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col group" data-category="sea" data-dest="saintmartin" data-price="9200">
+                        <div class="relative h-60 overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=800&auto=format&fit=crop" 
+                                 alt="সেন্টমার্টিন দ্বীপ" 
+                                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                                 onerror="this.src='https://placehold.co/800x600/0284c7/ffffff?text=Saint+Martin+Island'">
+                            <span class="absolute top-4 left-4 bg-teal-600 text-white font-extrabold text-xs px-3 py-1 rounded-full shadow-md">
+                                <i class="fa-solid fa-water mr-1"></i> ব্লু ওয়াটার
+                            </span>
+                            <span class="absolute top-4 right-4 bg-black/60 backdrop-blur-md text-white font-medium text-xs px-2.5 py-1 rounded-xl">
+                                ৩ দিন ২ রাত
+                            </span>
+                            <div class="absolute bottom-3 left-4 right-4 flex items-center justify-between text-white text-xs">
+                                <span class="bg-emerald-950/80 backdrop-blur-md px-2.5 py-1 rounded-lg">
+                                    <i class="fa-solid fa-location-dot text-amber-400 mr-1"></i> সেন্টমার্টিন ও ছেঁড়াদ্বীপ
+                                </span>
+                                <span class="bg-black/70 backdrop-blur-md px-2.5 py-1 rounded-lg">
+                                    <i class="fa-solid fa-star text-amber-400 mr-1"></i> ৪.৯ (৪৬০ রিভিউ)
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="p-6 flex-1 flex flex-col justify-between">
+                            <div>
+                                <h3 class="text-xl font-black text-slate-900 group-hover:text-brand-600 transition-colors">
+                                    সেন্টমার্টিন কোরাল দ্বীপ ও ছেঁড়াদ্বীপ ক্যাম্প
+                                </h3>
+                                <p class="text-slate-500 text-xs sm:text-sm mt-2 leading-relaxed">
+                                    সাগরের নীল জলরাশি, নারিকেল জিঞ্জিরার সৈকতে সাইক্লিং, রাতের বারবিকিউ পার্টি এবং সেন্টমার্টিন দ্বীপের শান্ত প্রাকৃতিক আবহ।
+                                </p>
+
+                                <div class="mt-4 pt-4 border-t border-slate-100">
+                                    <p class="text-xs font-bold text-slate-700 uppercase mb-2">প্যাকেজে অন্তর্ভুক্ত (Inclusions):</p>
+                                    <div class="grid grid-cols-2 gap-2 text-xs text-slate-600">
+                                        <div class="flex items-center gap-1.5"><i class="fa-solid fa-ferry text-emerald-600"></i> গ্রিন লাইন / শিপ টিকেট</div>
+                                        <div class="flex items-center gap-1.5"><i class="fa-solid fa-umbrella-beach text-emerald-600"></i> বিচ ভিউ কটেজ</div>
+                                        <div class="flex items-center gap-1.5"><i class="fa-solid fa-drumstick-bite text-emerald-600"></i> লাইভ ফিশ বারবিকিউ</div>
+                                        <div class="flex items-center gap-1.5"><i class="fa-solid fa-bicycle text-emerald-600"></i> ছেঁড়াদ্বীপ স্পিডবোট</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between">
+                                <div>
+                                    <span class="text-xs text-slate-400 block line-through">৳ ১০,৫০০</span>
+                                    <div class="flex items-baseline gap-1">
+                                        <span class="text-2xl font-black text-brand-600">৳ ৯,২০০</span>
+                                        <span class="text-xs text-slate-500">/জনপ্রতি</span>
+                                    </div>
+                                </div>
+                                <div class="flex gap-2">
+                                    <button onclick="openDetailsModal('saintmartin')" class="px-3 py-2 rounded-xl border border-slate-300 text-slate-700 text-xs font-bold hover:bg-slate-50 transition">
+                                        বিস্তারিত
+                                    </button>
+                                    <button onclick="openBookingModal('সেন্টমার্টিন কোরাল দ্বীপ ক্যাম্প', 9200)" class="px-4 py-2 rounded-xl bg-brand-600 hover:bg-brand-700 text-white text-xs font-bold shadow-md shadow-brand-600/20 transition active:scale-95">
+                                        বুক করুন
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-12 text-center">
+                    <p class="text-slate-600 text-sm mb-4">আপনার নিজস্ব গ্রুপ বা করপোরেট টিমের জন্য কাস্টমাইজড ট্যুর প্ল্যান প্রয়োজন?</p>
+                    <button onclick="openBookingModal('কাস্টম করপোরেট / ফ্যামিলি প্যাকেজ')" class="px-6 py-3 rounded-2xl border-2 border-brand-600 text-brand-700 hover:bg-brand-600 hover:text-white font-extrabold text-sm transition-all inline-flex items-center gap-2">
+                        <i class="fa-solid fa-sliders"></i>
+                        <span>কাস্টম ট্যুর প্ল্যান তৈরি করুন</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section id="destinations" class="py-20 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center max-w-3xl mx-auto mb-16">
+                    <span class="text-xs uppercase font-bold tracking-widest text-brand-600 bg-emerald-50 px-3 py-1 rounded-full">Explore Bangladesh</span>
+                    <h2 class="text-3xl sm:text-4xl font-black text-slate-900 mt-3">
+                        বাংলাদেশের রূপ ও রূপকথা: জনপ্রিয় স্থানসমূহ
+                    </h2>
+                    <p class="text-slate-600 text-sm sm:text-base mt-2">
+                        প্রকৃতি কন্যা জাফলং থেকে গভীর সুন্দরবন — প্রতিটি জেলার সেরা আকর্ষণগুলো আবিষ্কার করুন
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <!-- Dest 1 -->
+                    <div class="relative rounded-3xl overflow-hidden h-80 group cursor-pointer shadow-md" onclick="quickFilter('sajek')">
+                        <img src="https://images.unsplash.com/photo-1629813366051-b58137b2792c?q=80&w=600&auto=format&fit=crop" class="w-full h-full object-cover group-hover:scale-110 transition duration-700" alt="সাজেক">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+                        <div class="absolute bottom-5 left-5 right-5 text-white">
+                            <span class="text-[10px] uppercase font-bold tracking-wider text-amber-300 bg-amber-900/60 px-2 py-0.5 rounded">রাঙামাটি</span>
+                            <h3 class="text-xl font-bold mt-1">সাজেক ভ্যালি</h3>
+                            <p class="text-xs text-slate-300">মেঘের রাজ্যে বসবাস ও কংলাক পাহাড়ে রোমাঞ্চ</p>
+                            <span class="inline-block mt-2 text-xs font-bold text-amber-300 group-hover:underline">প্যাকেজ দেখুন &rarr;</span>
+                        </div>
+                    </div>
+
+                    <!-- Dest 2 -->
+                    <div class="relative rounded-3xl overflow-hidden h-80 group cursor-pointer shadow-md" onclick="quickFilter('cox')">
+                        <img src="https://images.unsplash.com/photo-1589556264800-08ae9e129a8c?q=80&w=600&auto=format&fit=crop" class="w-full h-full object-cover group-hover:scale-110 transition duration-700" alt="কক্সবাজার">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+                        <div class="absolute bottom-5 left-5 right-5 text-white">
+                            <span class="text-[10px] uppercase font-bold tracking-wider text-sky-300 bg-sky-900/60 px-2 py-0.5 rounded">চট্টগ্রাম</span>
+                            <h3 class="text-xl font-bold mt-1">কক্সবাজার</h3>
+                            <p class="text-xs text-slate-300">১২০ কিমি অবিরাম বালুকাময় দীর্ঘতম সমুদ্র সৈকত</p>
+                            <span class="inline-block mt-2 text-xs font-bold text-amber-300 group-hover:underline">প্যাকেজ দেখুন &rarr;</span>
+                        </div>
+                    </div>
+
+                    <!-- Dest 3 -->
+                    <div class="relative rounded-3xl overflow-hidden h-80 group cursor-pointer shadow-md" onclick="quickFilter('sundarbans')">
+                        <img src="https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?q=80&w=600&auto=format&fit=crop" class="w-full h-full object-cover group-hover:scale-110 transition duration-700" alt="সুন্দরবন">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+                        <div class="absolute bottom-5 left-5 right-5 text-white">
+                            <span class="text-[10px] uppercase font-bold tracking-wider text-emerald-300 bg-emerald-900/60 px-2 py-0.5 rounded">খুলনা</span>
+                            <h3 class="text-xl font-bold mt-1">সুন্দরবন</h3>
+                            <p class="text-xs text-slate-300">ইউনেস্কো ওয়ার্ল্ড হেরিটেজ ও বাঘের আবাসস্থল</p>
+                            <span class="inline-block mt-2 text-xs font-bold text-amber-300 group-hover:underline">প্যাকেজ দেখুন &rarr;</span>
+                        </div>
+                    </div>
+
+                    <!-- Dest 4 -->
+                    <div class="relative rounded-3xl overflow-hidden h-80 group cursor-pointer shadow-md" onclick="quickFilter('sreemangal')">
+                        <img src="https://images.unsplash.com/photo-1544735716-392fe2489ffa?q=80&w=600&auto=format&fit=crop" class="w-full h-full object-cover group-hover:scale-110 transition duration-700" alt="শ্রীমঙ্গল">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+                        <div class="absolute bottom-5 left-5 right-5 text-white">
+                            <span class="text-[10px] uppercase font-bold tracking-wider text-green-300 bg-green-900/60 px-2 py-0.5 rounded">সিলেট</span>
+                            <h3 class="text-xl font-bold mt-1">শ্রীমঙ্গল ও সিলেট</h3>
+                            <p class="text-xs text-slate-300">চায়ের রাজধানী ও রাতারগুল সোয়াম্প ফরেস্ট</p>
+                            <span class="inline-block mt-2 text-xs font-bold text-amber-300 group-hover:underline">প্যাকেজ দেখুন &rarr;</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="why-us" class="py-20 bg-emerald-950 text-white relative overflow-hidden">
+            <div class="absolute top-0 right-0 w-96 h-96 bg-emerald-800/20 rounded-full blur-3xl pointer-events-none"></div>
+            <div class="absolute bottom-0 left-0 w-96 h-96 bg-amber-500/10 rounded-full blur-3xl pointer-events-none"></div>
+
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+                <div class="text-center max-w-3xl mx-auto mb-16">
+                    <span class="text-xs uppercase font-bold tracking-widest text-amber-400">নিরাপত্তা ও বিশ্বস্ততা</span>
+                    <h2 class="text-3xl sm:text-4xl font-black mt-2">
+                        কেন "ভ্রমণ কথা" বেছে নেবেন? (Why Choose Us)
+                    </h2>
+                    <p class="text-emerald-200 text-sm sm:text-base mt-2">
+                        আমরা শুধু টিকিট বিক্রি করি না, প্রতিটি যাত্রায় উপহার দিই আজীবন মনে রাখার মতো স্মৃতি।
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <!-- Feature 1 -->
+                    <div class="p-6 rounded-3xl bg-emerald-900/50 border border-emerald-800 hover:border-amber-400/50 transition-all duration-300">
+                        <div class="w-14 h-14 rounded-2xl bg-amber-400/20 text-amber-400 flex items-center justify-center text-2xl mb-5">
+                            <i class="fa-solid fa-person-shelter"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">নারী ও ফ্যামিলি বান্ধব</h3>
+                        <p class="text-emerald-200/80 text-sm leading-relaxed">
+                            নারী পর্যটক ও শিশুদের জন্য সম্পূর্ণ নিরাপদ পরিবেশ। বিশেষ ফ্যামিলি কটেজ ও আলাদা সুরক্ষার ব্যবস্থা।
+                        </p>
+                    </div>
+
+                    <!-- Feature 2 -->
+                    <div class="p-6 rounded-3xl bg-emerald-900/50 border border-emerald-800 hover:border-amber-400/50 transition-all duration-300">
+                        <div class="w-14 h-14 rounded-2xl bg-emerald-400/20 text-emerald-400 flex items-center justify-center text-2xl mb-5">
+                            <i class="fa-solid fa-id-card-clip"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">সার্টিফাইড লোকাল গাইড</h3>
+                        <p class="text-emerald-200/80 text-sm leading-relaxed">
+                            প্রতিটি ট্রেইলে অভিজ্ঞ স্থানীয় গাইড থাকে, যারা নিরাপত্তা আইন ও স্থানীয় সংস্কৃতি খুব ভালো জানেন।
+                        </p>
+                    </div>
+
+                    <!-- Feature 3 -->
+                    <div class="p-6 rounded-3xl bg-emerald-900/50 border border-emerald-800 hover:border-amber-400/50 transition-all duration-300">
+                        <div class="w-14 h-14 rounded-2xl bg-sky-400/20 text-sky-400 flex items-center justify-center text-2xl mb-5">
+                            <i class="fa-solid fa-badge-percent"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">বেস্ট প্রাইস গ্যারান্টি</h3>
+                        <p class="text-emerald-200/80 text-sm leading-relaxed">
+                            কোনো হিডেন চার্জ নেই। রিসোর্ট ও ট্রান্সপোর্টের সরাসরি পার্টনারশিপের কারণে সবচেয়ে সেরা রেট।
+                        </p>
+                    </div>
+
+                    <!-- Feature 4 -->
+                    <div class="p-6 rounded-3xl bg-emerald-900/50 border border-emerald-800 hover:border-amber-400/50 transition-all duration-300">
+                        <div class="w-14 h-14 rounded-2xl bg-rose-400/20 text-rose-400 flex items-center justify-center text-2xl mb-5">
+                            <i class="fa-solid fa-headset"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">২৪/৭ ইমার্জেন্সি সাপোর্ট</h3>
+                        <p class="text-emerald-200/80 text-sm leading-relaxed">
+                            যেকোনো পরিস্থিতিতে অন-ট্যুর মেডিকেল কিট, ফার্স্ট এইড ও পুলিশ প্রশাসনের সার্বক্ষণিক সমন্বয়।
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Trust Badges Strip -->
+                <div class="mt-16 pt-8 border-t border-emerald-800/80 flex flex-wrap items-center justify-around gap-6 text-center text-emerald-300 text-sm font-semibold">
+                    <div class="flex items-center gap-2">
+                        <i class="fa-solid fa-shield-check text-amber-400 text-lg"></i>
+                        <span>বাংলাদেশ ট্যুরিজম বোর্ড স্বীকৃত</span>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <i class="fa-solid fa-building-columns text-amber-400 text-lg"></i>
+                        <span>নিবন্ধিত লিমিটেড ট্রাভেল এজেন্সি</span>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <i class="fa-solid fa-credit-card text-amber-400 text-lg"></i>
+                        <span>বিকাশ, নগদ ও ব্যাংক পেমেন্ট সিকিউরড</span>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <i class="fa-solid fa-circle-check text-amber-400 text-lg"></i>
+                        <span>সহজ রিফান্ড পলিসি</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="reviews" class="py-20 bg-slate-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center max-w-3xl mx-auto mb-16">
+                    <span class="text-xs uppercase font-bold tracking-widest text-brand-600 bg-emerald-100 px-3 py-1 rounded-full">Testimonials</span>
+                    <h2 class="text-3xl sm:text-4xl font-black text-slate-900 mt-2">
+                        ভ্রমণকারীদের বাস্তব অনুভূতি ও অভিজ্ঞতা
+                    </h2>
+                    <p class="text-slate-600 text-sm sm:text-base mt-2">
+                        আমাদের সাথে ঘুরে আসা বিভিন্ন পর্যটকের সতস্ফূর্ত মতামত
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <!-- Review 1 -->
+                    <div class="p-6 rounded-3xl bg-white border border-slate-200 shadow-sm flex flex-col justify-between">
+                        <div>
+                            <div class="flex items-center gap-1 text-amber-400 mb-4 text-sm">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <p class="text-slate-600 text-sm leading-relaxed mb-6 italic">
+                                "পরিবার সহ সাজেক ট্যুরে গিয়েছিলাম। মা ও ছোট বাচ্চাদের নিয়ে একটু চিন্তায় ছিলাম, কিন্তু ভ্রমণ কথার টিম যেভাবে খাবার ও চান্দের গাড়ির কমফোর্ট নিশ্চিত করেছে তা সত্যি প্রশংসনীয়। বিশেষ করে রিসোর্টের ভিউ অসাধারণ ছিল!"
+                            </p>
+                        </div>
+                        <div class="flex items-center gap-3 pt-4 border-t border-slate-100">
+                            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop" class="w-12 h-12 rounded-full object-cover" alt="নুসরাত জাহান" onerror="this.src='https://placehold.co/100x100/15803d/ffffff?text=NJ'">
+                            <div>
+                                <h4 class="font-bold text-slate-900 text-sm">নুসরাত জাহান</h4>
+                                <p class="text-xs text-slate-400">সাজেক ফ্যামিলি ট্যুর (ঢাকা)</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Review 2 -->
+                    <div class="p-6 rounded-3xl bg-white border border-slate-200 shadow-sm flex flex-col justify-between">
+                        <div>
+                            <div class="flex items-center gap-1 text-amber-400 mb-4 text-sm">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <p class="text-slate-600 text-sm leading-relaxed mb-6 italic">
+                                "সুন্দরবনের ৩ দিনের ক্রুজ ট্যুরে গিয়েছিলাম বন্ধুদের নিয়ে। ভেসেলের খাবার ছিল ফাইভ-স্টার মানের! বনরক্ষীদের সহযোগিতায় ট্রেইলগুলোতে কোনো ভয় লাগেনি। সুন্দরবনের হরিণ আর ম্যানগ্রোভের নির্জনতা মন ছুঁয়ে গেছে।"
+                            </p>
+                        </div>
+                        <div class="flex items-center gap-3 pt-4 border-t border-slate-100">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop" class="w-12 h-12 rounded-full object-cover" alt="তানভীর আহমেদ" onerror="this.src='https://placehold.co/100x100/0284c7/ffffff?text=TA'">
+                            <div>
+                                <h4 class="font-bold text-slate-900 text-sm">তানভীর আহমেদ</h4>
+                                <p class="text-xs text-slate-400">সুন্দরবন ক্রুজ ট্রাভেলার</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Review 3 -->
+                    <div class="p-6 rounded-3xl bg-white border border-slate-200 shadow-sm flex flex-col justify-between">
+                        <div>
+                            <div class="flex items-center gap-1 text-amber-400 mb-4 text-sm">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                            <p class="text-slate-600 text-sm leading-relaxed mb-6 italic">
+                                "আমাদের ৮ জনের কর্পোরেট ট্যুর ছিল বান্দরবান ও নীলগিরিতে। সময়মতো বাস, রিজার্ভ ল্যান্ডক্রুজার এবং চমৎকার হোটেল ম্যানেজমেন্ট আমাদের মুগ্ধ করেছে। আগামী বছর আবার বুক করব ইনশাআল্লাহ।"
+                            </p>
+                        </div>
+                        <div class="flex items-center gap-3 pt-4 border-t border-slate-100">
+                            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop" class="w-12 h-12 rounded-full object-cover" alt="আসিফ মাহমুদ" onerror="this.src='https://placehold.co/100x100/f59e0b/ffffff?text=AM'">
+                            <div>
+                                <h4 class="font-bold text-slate-900 text-sm">আসিফ মাহমুদ</h4>
+                                <p class="text-xs text-slate-400">টিম লিড, সফটওয়্যার কোম্পানি</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="tips" class="py-20 bg-white border-t border-slate-200">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-12">
+                    <span class="text-xs uppercase font-bold tracking-widest text-brand-600 bg-emerald-50 px-3 py-1 rounded-full">ভ্রমণ প্রস্তুতি ও গাইডলাইন</span>
+                    <h2 class="text-3xl font-black text-slate-900 mt-2">
+                        জরুরি ট্রাভেল টিপস ও সাধারণ প্রশ্নোত্তর (FAQ)
+                    </h2>
+                </div>
+
+                <div class="space-y-4">
+                    <!-- FAQ 1 -->
+                    <div class="border border-slate-200 rounded-2xl overflow-hidden">
+                        <button onclick="toggleFaq(1)" class="w-full flex items-center justify-between p-5 text-left font-bold text-slate-800 hover:bg-slate-50 transition">
+                            <span class="flex items-center gap-3">
+                                <i class="fa-solid fa-id-badge text-brand-600"></i>
+                                পাহাড়ি এলাকায় (সাজেক বা বান্দরবান) ভ্রমণের জন্য কী কী কাগজপত্র সাথে নেওয়া জরুরি?
+                            </span>
+                            <i id="faqIcon-1" class="fa-solid fa-chevron-down text-slate-400 transition-transform"></i>
+                        </button>
+                        <div id="faqContent-1" class="hidden px-5 pb-5 text-sm text-slate-600 border-t border-slate-100 pt-3">
+                            পাহাড়ে সিকিউরিটি চেকপোস্টে প্রদর্শনের জন্য জাতীয় পরিচয়পত্র (NID) বা জন্মনিবন্ধন বা পাসপোর্টের ফটোকপি এবং ৪-৫ কপি পাসপোর্ট সাইজ ছবি সাথে রাখা বাধ্যতামূলক। স্টুডেন্টদের ক্ষেত্রে কলেজ/ভার্সিটি আইডি কার্ড সাথে রাখা ভালো।
+                        </div>
+                    </div>
+
+                    <!-- FAQ 2 -->
+                    <div class="border border-slate-200 rounded-2xl overflow-hidden">
+                        <button onclick="toggleFaq(2)" class="w-full flex items-center justify-between p-5 text-left font-bold text-slate-800 hover:bg-slate-50 transition">
+                            <span class="flex items-center gap-3">
+                                <i class="fa-solid fa-money-check text-brand-600"></i>
+                                বুকিং কনফার্মেশন ও টাকা পরিশোধের নিয়ম কী?
+                            </span>
+                            <i id="faqIcon-2" class="fa-solid fa-chevron-down text-slate-400 transition-transform"></i>
+                        </button>
+                        <div id="faqContent-2" class="hidden px-5 pb-5 text-sm text-slate-600 border-t border-slate-100 pt-3">
+                            যেকোনো প্যাকেজ চূড়ান্ত করতে প্রাথমিক বুকিং হিসেবে ৩০%-৪০% অ্যাডভান্স (বিকাশ, নগদ বা ব্যাংক একাউন্টে) পাঠাতে হবে। বাকি টাকা যাত্রা শুরুর দিন বা রিসোর্টে পৌঁছানোর পর পরিশোধযোগ্য। আমরা তাৎক্ষণিক ডিজিটাল মানি রিসিপ্ট প্রদান করি।
+                        </div>
+                    </div>
+
+                    <!-- FAQ 3 -->
+                    <div class="border border-slate-200 rounded-2xl overflow-hidden">
+                        <button onclick="toggleFaq(3)" class="w-full flex items-center justify-between p-5 text-left font-bold text-slate-800 hover:bg-slate-50 transition">
+                            <span class="flex items-center gap-3">
+                                <i class="fa-solid fa-kit-medical text-brand-600"></i>
+                                ট্র্যাকিং ও দূরবর্তী এলাকায় ফার্স্ট এইড ও নেটওয়ার্ক কেমন থাকে?
+                            </span>
+                            <i id="faqIcon-3" class="fa-solid fa-chevron-down text-slate-400 transition-transform"></i>
+                        </button>
+                        <div id="faqContent-3" class="hidden px-5 pb-5 text-sm text-slate-600 border-t border-slate-100 pt-3">
+                            সাজেক ও বান্দরবানের দুর্গম এলাকায় টেলিটক এবং রবি নেটওয়ার্ক ভালো পাওয়া যায়। আমাদের প্রতিটি গাইডের কাছে প্রাথমিক ফার্স্ট এইড বক্স থাকে। তবে আপনার নিয়মিত কোনো ওষুধ থাকলে পর্যাপ্ত পরিমাণে সাথে নেওয়া আবশ্যক।
+                        </div>
+                    </div>
+
+                    <!-- FAQ 4 -->
+                    <div class="border border-slate-200 rounded-2xl overflow-hidden">
+                        <button onclick="toggleFaq(4)" class="w-full flex items-center justify-between p-5 text-left font-bold text-slate-800 hover:bg-slate-50 transition">
+                            <span class="flex items-center gap-3">
+                                <i class="fa-solid fa-umbrella text-brand-600"></i>
+                                আবহাওয়া খারাপ থাকলে বা ট্যুর বাতিল হলে রিফান্ড পলিসি কী?
+                            </span>
+                            <i id="faqIcon-4" class="fa-solid fa-chevron-down text-slate-400 transition-transform"></i>
+                        </button>
+                        <div id="faqContent-4" class="hidden px-5 pb-5 text-sm text-slate-600 border-t border-slate-100 pt-3">
+                            প্রাকৃতিক দুর্যোগ বা সরকারি নিষেধাজ্ঞার কারণে ট্যুর স্থগিত হলে কোনো ক্যান্সেলেশন ফি কাটা হবে না। পরবর্তীতে তারিখ পুনঃনির্ধারণ করতে পারবেন অথবা ৭২ ঘণ্টার মধ্যে সম্পূর্ণ রিফান্ড পাবেন।
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="py-20 bg-slate-100/80">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                    <!-- Left: Contact Details -->
+                    <div class="lg:col-span-5 space-y-6">
+                        <span class="text-xs uppercase font-bold tracking-widest text-brand-600 bg-emerald-100 px-3 py-1 rounded-full">আমাদের সাথে যোগাযোগ</span>
+                        <h2 class="text-3xl sm:text-4xl font-black text-slate-900 leading-tight">
+                            আপনার পরবর্তী ছুটির পরিকল্পনা সাজাতে আমরা প্রস্তুত
+                        </h2>
+                        <p class="text-slate-600 text-sm leading-relaxed">
+                            কোনো কনফিউশন থাকলে সরাসরি আমাদের অফিসে আসুন বা ফোনে কথা বলুন। আমাদের দক্ষ ট্রাভেল কনসালট্যান্টরা সবসময় সহযোগিতার জন্য প্রস্তুত।
+                        </p>
+
+                        <div class="space-y-4 pt-2">
+                            <div class="flex items-start gap-4 p-4 rounded-2xl bg-white border border-slate-200">
+                                <div class="w-10 h-10 rounded-xl bg-brand-50 text-brand-600 flex items-center justify-center shrink-0">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-slate-900 text-sm">প্রধান কার্যালয় (ঢাকা):</h4>
+                                    <p class="text-xs text-slate-600 mt-0.5">লেভেল ৫, হাউজ ১৮, রোড ৭, ধানমন্ডি, ঢাকা - ১২০৯</p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start gap-4 p-4 rounded-2xl bg-white border border-slate-200">
+                                <div class="w-10 h-10 rounded-xl bg-brand-50 text-brand-600 flex items-center justify-center shrink-0">
+                                    <i class="fa-solid fa-phone"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-slate-900 text-sm">হটলাইন ও হোয়াটসঅ্যাপ:</h4>
+                                    <p class="text-xs text-slate-600 mt-0.5">+৮৮০১৭১২-৩৪৫৬৭৮, +৮৮০১৮৭৬-৫৪৩২১০</p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start gap-4 p-4 rounded-2xl bg-white border border-slate-200">
+                                <div class="w-10 h-10 rounded-xl bg-brand-50 text-brand-600 flex items-center justify-center shrink-0">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-slate-900 text-sm">অফিশিয়াল ইমেইল:</h4>
+                                    <p class="text-xs text-slate-600 mt-0.5">support@vromonkotha.com, booking@vromonkotha.com</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right: Quick Inquiry Form -->
+                    <div class="lg:col-span-7">
+                        <div class="bg-white p-8 sm:p-10 rounded-3xl border border-slate-200 shadow-xl">
+                            <h3 class="text-2xl font-black text-slate-900 mb-2">ফ্রি কনসালটেশন ফর্ম</h3>
+                            <p class="text-slate-500 text-xs sm:text-sm mb-6">আপনার বিস্তারিত লিখুন, ৩০ মিনিটের মধ্যে আমাদের টিম ফোন করবে।</p>
+
+                            <form id="inquiryForm" onsubmit="handleInquirySubmit(event)" class="space-y-4">
+                                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                    <div>
+                                        <label class="block text-xs font-bold text-slate-700 uppercase mb-1">আপনার নাম *</label>
+                                        <input type="text" required placeholder="মোঃ আরিফুর রহমান" class="w-full px-4 py-2.5 rounded-xl border border-slate-200 text-sm focus:ring-2 focus:ring-brand-500 focus:outline-none">
+                                    </div>
+                                    <div>
+                                        <label class="block text-xs font-bold text-slate-700 uppercase mb-1">মোবাইল নম্বর *</label>
+                                        <input type="tel" required placeholder="017xxxxxxxx" class="w-full px-4 py-2.5 rounded-xl border border-slate-200 text-sm focus:ring-2 focus:ring-brand-500 focus:outline-none">
+                                    </div>
+                                </div>
+
+                                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                    <div>
+                                        <label class="block text-xs font-bold text-slate-700 uppercase mb-1">আগ্রহী গন্তব্য</label>
+                                        <select class="w-full px-4 py-2.5 rounded-xl border border-slate-200 text-sm focus:ring-2 focus:ring-brand-500 focus:outline-none">
+                                            <option>সাজেক ভ্যালি</option>
+                                            <option>কক্সবাজার</option>
+                                            <option>সুন্দরবন</option>
+                                            <option>শ্রীমঙ্গল ও সিলেট</option>
+                                            <option>বান্দরবান</option>
+                                            <option>সেন্টমার্টিন</option>
+                                            <option>অন্যান্য / কাস্টম</option>
+                                        </select>
+                                    </div>
+                                    <div>
+                                        <label class="block text-xs font-bold text-slate-700 uppercase mb-1">ভ্রমণকারীর সম্ভাব্য সংখ্যা</label>
+                                        <input type="number" min="1" max="100" value="2" class="w-full px-4 py-2.5 rounded-xl border border-slate-200 text-sm focus:ring-2 focus:ring-brand-500 focus:outline-none">
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <label class="block text-xs font-bold text-slate-700 uppercase mb-1">আপনার বিশেষ জিজ্ঞাসা বা চাহিদা</label>
+                                    <textarea rows="3" placeholder="যেমন: কাপল প্যাকেজ, উইকেন্ডে যেতে চাই, এসি গাড়ির চাহিদা..." class="w-full px-4 py-2.5 rounded-xl border border-slate-200 text-sm focus:ring-2 focus:ring-brand-500 focus:outline-none resize-none"></textarea>
+                                </div>
+
+                                <button type="submit" class="w-full py-3.5 rounded-xl bg-brand-600 hover:bg-brand-700 text-white font-black text-sm shadow-lg shadow-brand-600/30 transition active:scale-95 flex items-center justify-center gap-2">
+                                    <i class="fa-solid fa-paper-plane"></i>
+                                    <span>তথ্য জমা দিন</span>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-slate-950 text-slate-400 text-sm pt-16 pb-12 border-t border-slate-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
+                <!-- Col 1: About Brand -->
+                <div class="space-y-4">
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-xl bg-brand-500 flex items-center justify-center text-white font-bold">
+                            <i class="fa-solid fa-compass"></i>
+                        </div>
+                        <span class="text-2xl font-black text-white">ভ্রমণ কথা</span>
+                    </div>
+                    <p class="text-xs text-slate-400 leading-relaxed">
+                        "ভ্রমণ কথা" বাংলাদেশের পর্যটন শিল্পকে আধুনিক ও সহজলভ্য করার লক্ষ্যে নিবেদিত একটি পূর্ণাঙ্গ ট্রাভেল ম্যানেজমেন্ট প্রতিষ্ঠান। আমরা আপনার প্রতিটি মুহূর্তকে নিরাপদ ও আনন্দময় করতে প্রতিশ্রুতিবদ্ধ।
+                    </p>
+                    <div class="flex items-center space-x-3 text-slate-300">
+                        <a href="#" class="w-8 h-8 rounded-lg bg-slate-900 flex items-center justify-center hover:bg-brand-600 hover:text-white transition"><i class="fa-brands fa-facebook-f text-xs"></i></a>
+                        <a href="#" class="w-8 h-8 rounded-lg bg-slate-900 flex items-center justify-center hover:bg-brand-600 hover:text-white transition"><i class="fa-brands fa-instagram text-xs"></i></a>
+                        <a href="#" class="w-8 h-8 rounded-lg bg-slate-900 flex items-center justify-center hover:bg-brand-600 hover:text-white transition"><i class="fa-brands fa-youtube text-xs"></i></a>
+                        <a href="#" class="w-8 h-8 rounded-lg bg-slate-900 flex items-center justify-center hover:bg-brand-600 hover:text-white transition"><i class="fa-brands fa-whatsapp text-xs"></i></a>
+                    </div>
+                </div>
+
+                <!-- Col 2: Quick Links -->
+                <div>
+                    <h4 class="text-white font-bold text-base mb-4">টপ ডেস্টিনেশন</h4>
+                    <ul class="space-y-2 text-xs">
+                        <li><a href="#packages" class="hover:text-amber-400 transition">&bull; সাজেক ভ্যালি মেঘের ট্যুর</a></li>
+                        <li><a href="#packages" class="hover:text-amber-400 transition">&bull; কক্সবাজার ও ইনানী সমুদ্র সৈকত</a></li>
+                        <li><a href="#packages" class="hover:text-amber-400 transition">&bull; সেন্টমার্টিন দ্বীপ ও ছেঁড়াদ্বীপ</a></li>
+                        <li><a href="#packages" class="hover:text-amber-400 transition">&bull; সুন্দরবন টাইগার ক্রুজ</a></li>
+                        <li><a href="#packages" class="hover:text-amber-400 transition">&bull; শ্রীমঙ্গল ও মাধবপুর লেক</a></li>
+                        <li><a href="#packages" class="hover:text-amber-400 transition">&bull; রাতারগুল ও বিছনাকান্দি সিলেট</a></li>
+                    </ul>
+                </div>
+
+                <!-- Col 3: Policy & Support -->
+                <div>
+                    <h4 class="text-white font-bold text-base mb-4">সহায়তা ও শর্তাবলী</h4>
+                    <ul class="space-y-2 text-xs">
+                        <li><a href="#tips" class="hover:text-amber-400 transition">&bull; বুকিং ও রিফান্ড নীতিমালা</a></li>
+                        <li><a href="#tips" class="hover:text-amber-400 transition">&bull; ফ্যামিলি ট্যুর গাইডলাইন</a></li>
+                        <li><a href="#tips" class="hover:text-amber-400 transition">&bull; কর্পোরেট ট্যুর প্রপোজাল</a></li>
+                        <li><a href="#tips" class="hover:text-amber-400 transition">&bull; সরকারি ভ্রমণ বিধিমালা ও পারমিট</a></li>
+                        <li><a href="#why-us" class="hover:text-amber-400 transition">&bull; আমাদের সিকিউরিটি স্ট্যান্ডার্ড</a></li>
+                    </ul>
+                </div>
+
+                <!-- Col 4: Newsletter -->
+                <div>
+                    <h4 class="text-white font-bold text-base mb-4">নিউজলেটার সাবস্ক্রাইব</h4>
+                    <p class="text-xs text-slate-400 mb-3">নতুন অফার ও ফ্ল্যাশ সেলের খবর সবার আগে এসএমএস বা ইমেইলে পান:</p>
+                    <form onsubmit="handleNewsletter(event)" class="space-y-2">
+                        <input type="email" required placeholder="আপনার ইমেইল বা ফোন" class="w-full px-3.5 py-2.5 rounded-xl bg-slate-900 border border-slate-800 text-xs text-white focus:outline-none focus:border-brand-500">
+                        <button type="submit" class="w-full py-2.5 rounded-xl bg-amber-500 hover:bg-amber-600 text-slate-950 font-black text-xs transition">
+                            সাবস্ক্রাইব করুন
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Bottom Disclaimer & License -->
+            <div class="pt-8 border-t border-slate-900 flex flex-col md:flex-row items-center justify-between gap-4 text-xs">
+                <p>&copy; ২০২৬ ভ্রমণ কথা (Vromon Kotha Limited). সর্বস্বত্ব সংরক্ষিত। গণপ্রজাতন্ত্রী বাংলাদেশ সরকার অনুমোদিত।</p>
+                <div class="flex items-center gap-4 text-slate-500">
+                    <span>লাইসেন্স নং: BD-TOUR-10829</span>
+                    <span>&bull;</span>
+                    <span>টিন নং: 789123-XXXX</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div id="bookingModal" class="fixed inset-0 z-50 hidden bg-black/60 backdrop-blur-sm flex items-center justify-center p-4 overflow-y-auto">
+        <div class="bg-white rounded-3xl max-w-lg w-full p-6 sm:p-8 shadow-2xl border border-slate-200 relative my-8 transform transition-all animate-in fade-in">
+            <!-- Close Button -->
+            <button onclick="closeBookingModal()" class="absolute top-5 right-5 w-8 h-8 rounded-full bg-slate-100 text-slate-500 hover:bg-slate-200 flex items-center justify-center">
+                <i class="fa-solid fa-xmark text-sm"></i>
+            </button>
+
+            <!-- Modal Header -->
+            <div class="mb-5">
+                <span class="text-xs font-bold text-brand-600 uppercase tracking-wider bg-emerald-50 px-2.5 py-0.5 rounded-full">দ্রুত বুকিং ও কোটেশন</span>
+                <h3 class="text-2xl font-black text-slate-900 mt-1">প্যাকেজ বুক করুন</h3>
+                <p class="text-xs text-slate-500">যাত্রীর সংখ্যা নির্বাচন করুন এবং অটোম্যাটিক মোট খরচ দেখুন।</p>
+            </div>
+
+            <form id="calcBookingForm" onsubmit="processBooking(event)" class="space-y-4">
+                <!-- Select Package -->
+                <div>
+                    <label class="block text-xs font-bold text-slate-700 uppercase mb-1">নির্বাচিত প্যাকেজ</label>
+                    <select id="modalPackageSelect" onchange="calculateModalTotal()" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-200 text-sm font-medium focus:ring-2 focus:ring-brand-500 focus:outline-none">
+                        <option value="6500" data-name="সাজেক ভ্যালি মেঘের দেশ প্রিমিয়াম">সাজেক ভ্যালি মেঘের দেশ (৳ ৬,৫০০/জন)</option>
+                        <option value="7200" data-name="কক্সবাজার রিল্যাক্স ও মেরিন ড্রাইভ">কক্সবাজার রিল্যাক্স ট্যুর (৳ ৭,২০০/জন)</option>
+                        <option value="4800" data-name="শ্রীমঙ্গল চা বাগান ও লাউয়াছড়া">শ্রীমঙ্গল ইকো ট্যুর (৳ ৪,৮০০/জন)</option>
+                        <option value="13500" data-name="সুন্দরবন ওয়াইল্ডলাইফ লাক্সারি ক্রুজ">সুন্দরবন ওয়াইল্ডলাইফ ক্রুজ (৳ ১৩,৫০০/জন)</option>
+                        <option value="8500" data-name="বান্দরবান নীলগিরি ও নাফাখুম">বান্দরবান নীলগিরি ট্যুর (৳ ৮,৫০০/জন)</option>
+                        <option value="9200" data-name="সেন্টমার্টিন কোরাল দ্বীপ ক্যাম্প">সেন্টমার্টিন কোরাল ক্যাম্প (৳ ৯,২০০/জন)</option>
+                    </select>
+                </div>
+
+                <div class="grid grid-cols-2 gap-3">
+                    <!-- Persons Counter -->
+                    <div>
+                        <label class="block text-xs font-bold text-slate-700 uppercase mb-1">যাত্রী সংখ্যা</label>
+                        <div class="flex items-center border border-slate-200 rounded-xl overflow-hidden">
+                            <button type="button" onclick="changePersons(-1)" class="w-10 py-2.5 bg-slate-100 hover:bg-slate-200 font-bold text-slate-700">-</button>
+                            <input type="number" id="modalPersons" value="2" min="1" max="50" onchange="calculateModalTotal()" class="w-full text-center text-sm font-bold focus:outline-none">
+                            <button type="button" onclick="changePersons(1)" class="w-10 py-2.5 bg-slate-100 hover:bg-slate-200 font-bold text-slate-700">+</button>
+                        </div>
+                    </div>
+
+                    <!-- Room Option -->
+                    <div>
+                        <label class="block text-xs font-bold text-slate-700 uppercase mb-1">রুম প্রেফারেন্স</label>
+                        <select id="modalRoomType" onchange="calculateModalTotal()" class="w-full px-3 py-2.5 rounded-xl border border-slate-200 text-xs font-medium focus:ring-2 focus:ring-brand-500 focus:outline-none">
+                            <option value="0">স্ট্যান্ডার্ড শেয়ারিং (৳ ০)</option>
+                            <option value="1500">কাপল / প্রাইভেট রুম (+৳ ১,৫০০)</option>
+                            <option value="3000">ডিলাক্স ব্যালকনি রুম (+৳ ৩,০০০)</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Personal Info -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                    <div>
+                        <label class="block text-xs font-bold text-slate-700 uppercase mb-1">আপনার নাম *</label>
+                        <input type="text" id="modalUserName" required placeholder="মোঃ সাইফুল ইসলাম" class="w-full px-3.5 py-2 rounded-xl border border-slate-200 text-sm focus:outline-none focus:ring-2 focus:ring-brand-500">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold text-slate-700 uppercase mb-1">ফোন নম্বর (বিকাশ) *</label>
+                        <input type="tel" id="modalUserPhone" required placeholder="017xxxxxxxx" class="w-full px-3.5 py-2 rounded-xl border border-slate-200 text-sm focus:outline-none focus:ring-2 focus:ring-brand-500">
+                    </div>
+                </div>
+
+                <!-- Price Estimator Summary Box -->
+                <div class="p-4 rounded-2xl bg-emerald-50 border border-emerald-200 text-slate-800">
+                    <div class="flex justify-between items-center text-xs mb-1">
+                        <span class="text-slate-600">জনপ্রতি বেস প্রাইস:</span>
+                        <span id="basePriceText" class="font-bold text-slate-800">৳ ৬,৫০০</span>
+                    </div>
+                    <div class="flex justify-between items-center text-xs mb-1">
+                        <span class="text-slate-600">রুম চার্জ / অ্যাড-অন:</span>
+                        <span id="roomChargeText" class="font-bold text-slate-800">৳ ০</span>
+                    </div>
+                    <div class="flex justify-between items-center text-sm pt-2 border-t border-emerald-200 mt-2 font-black">
+                        <span class="text-emerald-900">সর্বমোট হিসাব (Total BDT):</span>
+                        <span id="grandTotalText" class="text-xl text-brand-600 font-extrabold">৳ ১৩,০০০</span>
+                    </div>
+                </div>
+
+                <!-- Payment Channels Preview -->
+                <div>
+                    <label class="block text-xs font-bold text-slate-700 uppercase mb-1">পেমেন্ট মেথড বাছাই করুন</label>
+                    <div class="grid grid-cols-3 gap-2 text-xs">
+                        <label class="flex items-center gap-2 p-2.5 rounded-xl border border-slate-200 cursor-pointer hover:bg-slate-50">
+                            <input type="radio" name="paymentMethod" value="bKash" checked class="accent-brand-600">
+                            <span class="font-bold text-pink-600">বিকাশ</span>
+                        </label>
+                        <label class="flex items-center gap-2 p-2.5 rounded-xl border border-slate-200 cursor-pointer hover:bg-slate-50">
+                            <input type="radio" name="paymentMethod" value="Nagad" class="accent-brand-600">
+                            <span class="font-bold text-orange-600">নগদ</span>
+                        </label>
+                        <label class="flex items-center gap-2 p-2.5 rounded-xl border border-slate-200 cursor-pointer hover:bg-slate-50">
+                            <input type="radio" name="paymentMethod" value="Bank" class="accent-brand-600">
+                            <span class="font-bold text-blue-600">ব্যাংক ট্রান্সফার</span>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Submit Button -->
+                <button type="submit" class="w-full py-3.5 rounded-xl bg-brand-600 hover:bg-brand-700 text-white font-black text-sm shadow-lg shadow-brand-600/30 transition active:scale-95 flex items-center justify-center gap-2">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <span>বুকিং কনফার্ম করুন (অনলাইন পেমেন্ট)</span>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <div id="detailsModal" class="fixed inset-0 z-50 hidden bg-black/60 backdrop-blur-sm flex items-center justify-center p-4 overflow-y-auto">
+        <div class="bg-white rounded-3xl max-w-xl w-full p-6 sm:p-8 shadow-2xl border border-slate-200 relative my-8">
+            <button onclick="closeDetailsModal()" class="absolute top-5 right-5 w-8 h-8 rounded-full bg-slate-100 text-slate-500 hover:bg-slate-200 flex items-center justify-center">
+                <i class="fa-solid fa-xmark text-sm"></i>
+            </button>
+
+            <div id="detailsModalContent">
+                <!-- Content will be injected dynamically -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Floating WhatsApp Action -->
+    <a href="https://wa.me/8801712345678?text=Hello%20Vromon%20Kotha,%20I%20want%20to%20know%20about%20tour%20packages" target="_blank" class="fixed bottom-6 right-6 z-40 w-14 h-14 rounded-full bg-emerald-500 text-white flex items-center justify-center text-2xl shadow-xl hover:scale-110 hover:bg-emerald-600 transition-all shadow-emerald-600/30" title="সরাসরি হোয়াটসঅ্যাপে চ্যাট করুন">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- Toast Notification Box -->
+    <div id="siteToast" class="fixed bottom-6 left-6 z-50 transform -translate-y-10 opacity-0 pointer-events-none transition-all duration-300 max-w-sm w-full p-4 rounded-2xl bg-slate-900 text-white shadow-2xl flex items-center gap-3 border border-slate-800">
+        <div id="toastIcon" class="w-10 h-10 rounded-xl bg-emerald-500/20 text-emerald-400 flex items-center justify-center text-lg shrink-0">
+            <i class="fa-solid fa-circle-check"></i>
+        </div>
+        <div>
+            <h4 id="toastTitle" class="font-bold text-sm">সফল হয়েছে!</h4>
+            <p id="toastMessage" class="text-xs text-slate-400 mt-0.5">আপনার অনুরোধটি সফলভাবে গৃহীত হয়েছে।</p>
+        </div>
+    </div>
+
+    <script>
+        // Tour Details Database for Modal
+        const packageDetailsData = {
+            sajek: {
+                title: "সাজেক ভ্যালি মেঘের দেশ প্রিমিয়াম ট্যুর",
+                duration: "৩ দিন ২ রাত",
+                price: "৳ ৬,৫০০ /জনপ্রতি",
+                highlights: [
+                    "রুইলুই পাড়া ও কংলাক পাহাড়ের চূড়ায় মেঘ দর্শন",
+                    "দিঘীনালা থেকে সেনাবাহিনী এস্কর্ট সহ চাঁদের গাড়ির অ্যাডভেঞ্চার",
+                    "আলুটিলা গুহা ও রিসাং ঝরনা ঘুরে দেখা",
+                    "হাজাচড়া ঝরনা ও তারাবাঁশের ঐতিহ্যবাহী ব্যাম্বু চিকেন ডিনার"
+                ],
+                policy: "বুকিংয়ের জন্য জনপ্রতি ২,০০০ টাকা অগ্রিম প্রযোজ্য। যাত্রা শুরুর ৪৮ ঘণ্টা পূর্বে নোটিশ দিলে পরিবর্তন গ্রহণযোগ্য।"
+            },
+            cox: {
+                title: "কক্সবাজার রিল্যাক্স ও মেরিন ড্রাইভ ট্যুর",
+                duration: "৪ দিন ৩ রাত",
+                price: "৳ ৭,২০০ /জনপ্রতি",
+                highlights: [
+                    "কলাতলী সুগন্ধা বিচে সূর্যাস্ত ও সুইমিং",
+                    "খোলা জিপে মেরিন ড্রাইভ দিয়ে ইনানী ও পাটোয়ারটেক ভ্রমণ",
+                    "হিমছড়ি পাহাড় চূড়া থেকে সাগরের বিশালতা উপভোগ",
+                    "ফ্রেশ কোরাল মাছ ও রূপচাঁদা ফ্রাই ডিনার পার্টি"
+                ],
+                policy: "৩-স্টার এসি হোটেল রুম কাপল অথবা ৪ জন শেয়ারিং ভিত্তিতে নির্ধারিত।"
+            },
+            sreemangal: {
+                title: "শ্রীমঙ্গল চা বাগান ও লাউয়াছড়া ইকো ট্যুর",
+                duration: "২ দিন ১ রাত",
+                price: "৳ ৪,৮০০ /জনপ্রতি",
+                highlights: [
+                    "সবুজ চা বাগানে ছবি তোলা ও চা শ্রমিকদের জীবনযাত্রা দেখা",
+                    "লাউয়াছড়া বর্ষাবনে ট্র্যাকিং ও বিলুপ্তপ্রায় উল্লুক পর্যবেক্ষণ",
+                    "মাধবপুর লেকের নীল পদ্ম দর্শন",
+                    "নীলকণ্ঠ কেবিনের সাত রঙের চায়ের স্বাদ নেওয়া"
+                ],
+                policy: "ইকো রিসোর্ট স্টে। ফ্যামিলি বা কাপলদের জন্য সেরা প্রশান্তির ট্যুর।"
+            },
+            sundarbans: {
+                title: "সুন্দরবন ওয়াইল্ডলাইফ লাক্সারি ক্রুজ",
+                duration: "৩ দিন ৩ রাত",
+                price: "৳ ১৩,৫০০ /জনপ্রতি",
+                highlights: [
+                    "মোংলা থেকে লাক্সারি ভেসেল ক্রুজারে তিন দিনের সুন্দরবন ভ্রমণ",
+                    "কটকা অভয়ারণ্য ও জামতলা সমুদ্র সৈকতে হরিণ ও বন্যপ্রাণী দর্শন",
+                    "করমজল কুমির প্রজনন কেন্দ্র ও ওয়াচ টাওয়ার",
+                    "সশস্ত্র ফরেস্ট গার্ডের পাহারায় গভীর বনে ট্রেইল"
+                ],
+                policy: "বন বিভাগের বিশেষ পারমিট ও ন্যাশনাল আইডি কার্ড আবশ্যক।"
+            },
+            bandarban: {
+                title: "বান্দরবান নীলগিরি ও নাফাখুম ট্র্যাকিং",
+                duration: "৩ দিন ২ রাত",
+                price: "৳ ৮,৫০০ /জনপ্রতি",
+                highlights: [
+                    "মেঘের দেশে নীলগিরি হিলভিউ রিসোর্টে সময় কাটানো",
+                    "শৈলপ্রপাত, চিম্বুক পাহাড় ও স্বর্ণ মন্দির পরিদর্শন",
+                    "থানচি থেকে ইঞ্জিন বোটে রিমাক্রি নদী ও নাফাখুম ট্র্যাকিং",
+                    "আদিবাসী পল্লীতে ঐতিহ্যবাহী খাবারে মধ্যাহ্নভোজ"
+                ],
+                policy: "শারীরিক সক্ষমতা ভালো থাকা বাঞ্ছনীয়। অভিজ্ঞ পাহাড়ি গাইড সার্বক্ষণিক সাথে থাকবেন।"
+            },
+            saintmartin: {
+                title: "সেন্টমার্টিন কোরাল দ্বীপ ও ছেঁড়াদ্বীপ ক্যাম্প",
+                duration: "৩ দিন ২ রাত",
+                price: "৳ ৯,২০০ /জনপ্রতি",
+                highlights: [
+                    "বিলাসবহুল জাহাজে নাফ নদী ও বঙ্গোপসাগর পাড়ি",
+                    "ছেঁড়াদ্বীপের প্রবাল প্রাচীরে সাইক্লিং ও ফটোসেশন",
+                    "সৈকতে বসে ডাব খাওয়া ও নারিকেল জিঞ্জিরার জোয়ার-ভাটা দর্শন",
+                    "রাতের বেলা বারবিকিউ ও ক্যাম্পফায়ার পার্টি"
+                ],
+                policy: "সরকারি জাহাজ চলাচলের সিজন অনুযায়ী পরিচালিত হয়।"
+            }
+        };
+
+        // Mobile Menu Toggle
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const mobileMenu = document.getElementById('mobileMenu');
+        const menuIcon = document.getElementById('menuIcon');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            const isHidden = mobileMenu.classList.contains('hidden');
+            if (isHidden) {
+                mobileMenu.classList.remove('hidden');
+                menuIcon.className = 'fa-solid fa-xmark text-xl';
+            } else {
+                mobileMenu.classList.add('hidden');
+                menuIcon.className = 'fa-solid fa-bars text-xl';
+            }
+        });
+
+        document.querySelectorAll('.mobile-link').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+                menuIcon.className = 'fa-solid fa-bars text-xl';
+            });
+        });
+
+        // Filter Tour Packages by Category
+        function filterPackages(category) {
+            const buttons = document.querySelectorAll('.pkg-filter-btn');
+            buttons.forEach(btn => {
+                if (btn.getAttribute('data-category') === category) {
+                    btn.classList.add('bg-brand-600', 'text-white', 'shadow-sm');
+                    btn.classList.remove('bg-white', 'text-slate-700', 'hover:bg-emerald-50');
+                } else {
+                    btn.classList.remove('bg-brand-600', 'text-white', 'shadow-sm');
+                    btn.classList.add('bg-white', 'text-slate-700', 'hover:bg-emerald-50');
+                }
+            });
+
+            const cards = document.querySelectorAll('.pkg-card');
+            cards.forEach(card => {
+                const cardCat = card.getAttribute('data-category');
+                if (category === 'all' || cardCat === category) {
+                    card.style.display = 'flex';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        }
+
+        // Quick Tag Filter Trigger
+        function quickFilter(destinationKey) {
+            const cards = document.querySelectorAll('.pkg-card');
+            let found = false;
+            cards.forEach(card => {
+                const dest = card.getAttribute('data-dest');
+                if (dest === destinationKey) {
+                    card.style.display = 'flex';
+                    found = true;
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+
+            // Smooth scroll to packages container
+            const section = document.getElementById('packages');
+            if (section) {
+                section.scrollIntoView({ behavior: 'smooth' });
+            }
+
+            triggerToast('ফিল্টার কার্যকর হয়েছে', `${destinationKey.toUpperCase()} এর প্যাকেজ দেখানো হচ্ছে।`);
+        }
+
+        // Hero Quick Search Form Handler
+        function handleHeroSearch(event) {
+            event.preventDefault();
+            const destination = document.getElementById('searchDestination').value;
+            const cards = document.querySelectorAll('.pkg-card');
+
+            cards.forEach(card => {
+                const dest = card.getAttribute('data-dest');
+                if (destination === 'all' || dest === destination) {
+                    card.style.display = 'flex';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+
+            document.getElementById('packages').scrollIntoView({ behavior: 'smooth' });
+            triggerToast('প্যাকেজ ফিল্টার সম্পন্ন', 'আপনার সার্চ অনুযায়ী প্যাকেজগুলো তালিকাভুক্ত করা হয়েছে।');
+        }
+
+        // FAQ Toggle Logic
+        function toggleFaq(index) {
+            const content = document.getElementById(`faqContent-${index}`);
+            const icon = document.getElementById(`faqIcon-${index}`);
+            
+            if (content.classList.contains('hidden')) {
+                content.classList.remove('hidden');
+                icon.style.transform = 'rotate(180deg)';
+            } else {
+                content.classList.add('hidden');
+                icon.style.transform = 'rotate(0deg)';
+            }
+        }
+
+        // Booking Modal and Price Estimator Logic
+        const bookingModal = document.getElementById('bookingModal');
+        const modalPackageSelect = document.getElementById('modalPackageSelect');
+        const modalPersons = document.getElementById('modalPersons');
+        const modalRoomType = document.getElementById('modalRoomType');
+        const basePriceText = document.getElementById('basePriceText');
+        const roomChargeText = document.getElementById('roomChargeText');
+        const grandTotalText = document.getElementById('grandTotalText');
+
+        function openBookingModal(defaultPackageName = null, defaultPrice = null) {
+            bookingModal.classList.remove('hidden');
+            document.body.style.overflow = 'hidden';
+
+            if (defaultPackageName) {
+                // Find matching option
+                for (let option of modalPackageSelect.options) {
+                    if (option.getAttribute('data-name')?.includes(defaultPackageName) || option.text.includes(defaultPackageName)) {
+                        modalPackageSelect.value = option.value;
+                        break;
+                    }
+                }
+            }
+            calculateModalTotal();
+        }
+
+        function closeBookingModal() {
+            bookingModal.classList.add('hidden');
+            document.body.style.overflow = 'auto';
+        }
+
+        function changePersons(amount) {
+            let current = parseInt(modalPersons.value) || 1;
+            current += amount;
+            if (current < 1) current = 1;
+            if (current > 50) current = 50;
+            modalPersons.value = current;
+            calculateModalTotal();
+        }
+
+        function calculateModalTotal() {
+            const basePrice = parseInt(modalPackageSelect.value) || 6500;
+            const persons = parseInt(modalPersons.value) || 1;
+            const roomAddon = parseInt(modalRoomType.value) || 0;
+
+            const roomCost = roomAddon * Math.ceil(persons / 2);
+            const total = (basePrice * persons) + roomCost;
+
+            basePriceText.textContent = `৳ ${basePrice.toLocaleString('bn-BD')}`;
+            roomChargeText.textContent = roomCost > 0 ? `৳ ${roomCost.toLocaleString('bn-BD')}` : '৳ ০';
+            grandTotalText.textContent = `৳ ${total.toLocaleString('bn-BD')}`;
+        }
+
+        function processBooking(event) {
+            event.preventDefault();
+            const name = document.getElementById('modalUserName').value;
+            const phone = document.getElementById('modalUserPhone').value;
+            const method = document.querySelector('input[name="paymentMethod"]:checked')?.value || 'bKash';
+            const total = grandTotalText.textContent;
+
+            closeBookingModal();
+            triggerToast('বুকিং সফলভাবে সম্পন্ন!', `${name}, আপনার বুকিং গ্রহণ করা হয়েছে (${total}, মাধ্যম: ${method})। আমাদের টিম দ্রুত যোগাযোগ করবে।`, true);
+            document.getElementById('calcBookingForm').reset();
+        }
+
+        // Details Modal Logic
+        const detailsModal = document.getElementById('detailsModal');
+        const detailsModalContent = document.getElementById('detailsModalContent');
+
+        function openDetailsModal(packageKey) {
+            const data = packageDetailsData[packageKey];
+            if (!data) return;
+
+            detailsModalContent.innerHTML = `
+                <div class="space-y-4">
+                    <span class="text-xs font-bold uppercase tracking-wider text-brand-600 bg-emerald-50 px-2.5 py-1 rounded-full">${data.duration}</span>
+                    <h3 class="text-2xl font-black text-slate-900">${data.title}</h3>
+                    <p class="text-xl font-extrabold text-brand-600">${data.price}</p>
+                    
+                    <div class="pt-3 border-t border-slate-100">
+                        <h4 class="font-bold text-sm text-slate-800 mb-2">ট্যুরের প্রধান আকর্ষণসমূহ (Highlights):</h4>
+                        <ul class="space-y-2 text-xs text-slate-600">
+                            ${data.highlights.map(item => `<li class="flex items-start gap-2"><i class="fa-solid fa-check text-brand-600 mt-0.5"></i> <span>${item}</span></li>`).join('')}
+                        </ul>
+                    </div>
+
+                    <div class="p-3 bg-amber-50 rounded-xl border border-amber-200 text-xs text-amber-900">
+                        <strong>বুকিং পলিসি:</strong> ${data.policy}
+                    </div>
+
+                    <div class="pt-4 flex gap-3">
+                        <button onclick="closeDetailsModal(); openBookingModal('${data.title}')" class="flex-1 py-3 bg-brand-600 hover:bg-brand-700 text-white font-bold text-sm rounded-xl transition">
+                            এই প্যাকেজ বুক করুন
+                        </button>
+                        <button onclick="closeDetailsModal()" class="px-5 py-3 border border-slate-300 text-slate-700 text-sm font-semibold rounded-xl hover:bg-slate-50 transition">
+                            বন্ধ করুন
+                        </button>
+                    </div>
+                </div>
+            `;
+
+            detailsModal.classList.remove('hidden');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeDetailsModal() {
+            detailsModal.classList.add('hidden');
+            document.body.style.overflow = 'auto';
+        }
+
+        // Close Modals on Backdrop Click
+        window.addEventListener('click', (e) => {
+            if (e.target === bookingModal) closeBookingModal();
+            if (e.target === detailsModal) closeDetailsModal();
+        });
+
+        // Contact & Newsletter Handlers
+        function handleInquirySubmit(event) {
+            event.preventDefault();
+            event.target.reset();
+            triggerToast('তথ্য গৃহীত হয়েছে!', 'ধন্যবাদ! আমাদের ট্রাভেল এক্সপার্ট ৩০ মিনিটের মধ্যে আপনাকে কল করবেন।');
+        }
+
+        function handleNewsletter(event) {
+            event.preventDefault();
+            event.target.reset();
+            triggerToast('সাবস্ক্রিপশন সফল!', 'ভ্রমণ কথা নিউজলেটারে আপনাকে স্বাগতম!');
+        }
+
+        // Global Toast Notification Helper
+        const toast = document.getElementById('siteToast');
+        const toastTitle = document.getElementById('toastTitle');
+        const toastMessage = document.getElementById('toastMessage');
+
+        function triggerToast(title, msg, isSuccess = true) {
+            toastTitle.textContent = title;
+            toastMessage.textContent = msg;
+
+            toast.classList.remove('-translate-y-10', 'opacity-0', 'pointer-events-none');
+            toast.classList.add('translate-y-0', 'opacity-100');
+
+            setTimeout(() => {
+                toast.classList.remove('translate-y-0', 'opacity-100');
+                toast.classList.add('-translate-y-10', 'opacity-0', 'pointer-events-none');
+            }, 4500);
+        }
+
+        // Set Default Date in Hero Search (Tomorrow's Date)
+        const dateInput = document.getElementById('searchDate');
+        if (dateInput) {
+            const tomorrow = new Date();
+            tomorrow.setDate(tomorrow.getDate() + 1);
+            dateInput.value = tomorrow.toISOString().split('T')[0];
+        }
+    </script>
+</body>
+</html>
